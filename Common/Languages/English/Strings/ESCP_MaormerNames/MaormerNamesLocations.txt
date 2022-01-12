@@ -1,0 +1,15 @@
+Beacon
+Belfry
+Bulwark
+Cathedral
+Citadel
+Refuge
+Spire
+Temple
+Tower
+Cove
+Port
+Fjord
+Bay
+Anchorage
+Reef

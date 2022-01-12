@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>ESCP_NamerSettlementMaormer</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->The [b] [locations]</li>
+        <li>r_name->[locations] of the [serpents]</li>
+      </rulesStrings>
+	  <rulesFiles>
+        <li>a->ESCP_MaormerNames/MaormerFactionA</li>
+        <li>b->ESCP_MaormerNames/MaormerFactionB</li>
+        <li>locations->ESCP_MaormerNames/MaormerNamesLocations</li>
+        <li>serpents->ESCP_MaormerNames/MaormerNamesSerpents</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>ESCP_NamerFactionMaormer</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->Maormer kingdom of the [b] [serpents]</li>
+      </rulesStrings>
+	  <rulesFiles>
+		<li>b->ESCP_MaormerNames/MaormerFactionB</li>
+        <li>FamilyList->ESCP_MaormerNames/MaormerFamily</li>
+        <li>serpents->ESCP_MaormerNames/MaormerNamesSerpents</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+   <RulePackDef>
+    <defName>ESCP_NamerFactionMaormerRaider</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->Maormer pirates of the [b] [serpents]</li>
+      </rulesStrings>
+	  <rulesFiles>
+		<li>b->ESCP_MaormerNames/MaormerFactionB</li>
+        <li>FamilyList->ESCP_MaormerNames/MaormerFamily</li>
+        <li>serpents->ESCP_MaormerNames/MaormerNamesSerpents</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

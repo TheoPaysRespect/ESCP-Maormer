@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Tribal -->
+
+  <FactionDef ParentName="ESCP_FactionBase" Name="ESCP_MaormerTribeBase" Abstract="True">
+	<modExtensions>
+		<li Class="ESCP_RaceTools.SettlementPreference">
+			<chance>1.0</chance>
+			<onlyCoastal>true</onlyCoastal>
+			<IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
+        </li>
+		<li Class="ESCP_RaceTools.FactionProperties">
+			<isMaormerFaction>true</isMaormerFaction>
+        </li>
+	</modExtensions>
+    <factionIconPath>World/WorldObjects/Expanding/ESCP_MaormerSettlement</factionIconPath>
+    <factionNameMaker>ESCP_NamerFactionMaormer</factionNameMaker>
+    <settlementNameMaker>ESCP_NamerSettlementMaormer</settlementNameMaker>
+    <allowedCultures>
+		<li>ESCP_Maormeri</li>
+	</allowedCultures>
+    <!-- Don't enable unless there are actually backstories -->
+		<!--
+		<backstoryFilters>
+		  <li>
+			<categories>
+			  <li>ESCP_Maormer_Tribal</li>
+			</categories>
+			<commonality>0.95</commonality>
+		  </li>
+		</backstoryFilters>
+		-->
+    <caravanTraderKinds>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+    </baseTraderKinds>
+    <raidLootMaker>ESCP_MaormerTribeRaidLootMaker</raidLootMaker>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <ESCP_MaormerTribal_Penitent>5</ESCP_MaormerTribal_Penitent>
+          <ESCP_MaormerTribal_Warrior>5</ESCP_MaormerTribal_Warrior>
+          <ESCP_MaormerTribal_Archer>10</ESCP_MaormerTribal_Archer>
+          <ESCP_MaormerTribal_Hunter>10</ESCP_MaormerTribal_Hunter>
+          <ESCP_MaormerTribal_HeavyArcher>10</ESCP_MaormerTribal_HeavyArcher>
+          <ESCP_MaormerTribal_Berserker>5</ESCP_MaormerTribal_Berserker>
+          <ESCP_MaormerTribal_ChiefRanged>3</ESCP_MaormerTribal_ChiefRanged>
+          <ESCP_MaormerTribal_ChiefMelee>1.5</ESCP_MaormerTribal_ChiefMelee>
+	   </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <ESCP_MaormerTribal_Archer>10</ESCP_MaormerTribal_Archer>
+          <ESCP_MaormerTribal_Hunter>10</ESCP_MaormerTribal_Hunter>
+          <ESCP_MaormerTribal_HeavyArcher>10</ESCP_MaormerTribal_HeavyArcher>
+          <ESCP_MaormerTribal_ChiefRanged>5</ESCP_MaormerTribal_ChiefRanged>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>30</commonality>
+        <options>
+          <ESCP_MaormerTribal_Penitent>10</ESCP_MaormerTribal_Penitent>
+          <ESCP_MaormerTribal_Warrior>10</ESCP_MaormerTribal_Warrior>
+          <ESCP_MaormerTribal_Berserker>10</ESCP_MaormerTribal_Berserker>
+          <ESCP_MaormerTribal_ChiefMelee>5</ESCP_MaormerTribal_ChiefMelee>
+      </options>
+      </li>
+      <li>
+        <!-- breach-capable fights, breachers plus ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>5</commonality>
+        <options>
+          <ESCP_MaormerTribal_Breacher>5</ESCP_MaormerTribal_Breacher>
+          <ESCP_MaormerTribal_Penitent>5</ESCP_MaormerTribal_Penitent>
+          <ESCP_MaormerTribal_Warrior>5</ESCP_MaormerTribal_Warrior>
+          <ESCP_MaormerTribal_Archer>10</ESCP_MaormerTribal_Archer>
+          <ESCP_MaormerTribal_Hunter>10</ESCP_MaormerTribal_Hunter>
+          <ESCP_MaormerTribal_HeavyArcher>10</ESCP_MaormerTribal_HeavyArcher>
+          <ESCP_MaormerTribal_Berserker>5</ESCP_MaormerTribal_Berserker>
+          <ESCP_MaormerTribal_ChiefRanged>3</ESCP_MaormerTribal_ChiefRanged>
+          <ESCP_MaormerTribal_ChiefMelee>1.5</ESCP_MaormerTribal_ChiefMelee>
+      </options>
+      </li>
+      <li>
+        <!-- Peaceful -->
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <ESCP_MaormerTribal_Warrior>20</ESCP_MaormerTribal_Warrior>
+          <ESCP_MaormerTribal_Archer>10</ESCP_MaormerTribal_Archer>
+          <ESCP_MaormerTribal_Hunter>10</ESCP_MaormerTribal_Hunter>
+          <ESCP_MaormerTribal_HeavyArcher>10</ESCP_MaormerTribal_HeavyArcher>
+          <ESCP_MaormerTribal_Berserker>5</ESCP_MaormerTribal_Berserker>
+          <ESCP_MaormerTribal_ChiefRanged>3</ESCP_MaormerTribal_ChiefRanged>
+          <ESCP_MaormerTribal_ChiefMelee>1.5</ESCP_MaormerTribal_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <ESCP_MaormerTribal_Trader>1</ESCP_MaormerTribal_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <ESCP_MaormerTribal_Warrior>7</ESCP_MaormerTribal_Warrior>
+          <ESCP_MaormerTribal_Archer>10</ESCP_MaormerTribal_Archer>
+          <ESCP_MaormerTribal_Hunter>10</ESCP_MaormerTribal_Hunter>
+          <ESCP_MaormerTribal_HeavyArcher>10</ESCP_MaormerTribal_HeavyArcher>
+          <ESCP_MaormerTribal_Berserker>7</ESCP_MaormerTribal_Berserker>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <ESCP_MaormerTribal_Warrior>7</ESCP_MaormerTribal_Warrior>
+          <ESCP_MaormerTribal_Archer>10</ESCP_MaormerTribal_Archer>
+          <ESCP_MaormerTribal_Hunter>10</ESCP_MaormerTribal_Hunter>
+          <ESCP_MaormerTribal_HeavyArcher>10</ESCP_MaormerTribal_HeavyArcher>
+          <ESCP_MaormerTribal_Berserker>7</ESCP_MaormerTribal_Berserker>
+          <ESCP_MaormerTribal_ChiefRanged>10</ESCP_MaormerTribal_ChiefRanged>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement_RangedOnly</kindDef>
+        <options>
+          <ESCP_MaormerTribal_Archer>10</ESCP_MaormerTribal_Archer>
+          <ESCP_MaormerTribal_Hunter>10</ESCP_MaormerTribal_Hunter>
+          <ESCP_MaormerTribal_HeavyArcher>10</ESCP_MaormerTribal_HeavyArcher>
+          <ESCP_MaormerTribal_ChiefRanged>10</ESCP_MaormerTribal_ChiefRanged>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <ESCP_MaormerTribal_Miner>1</ESCP_MaormerTribal_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <ESCP_MaormerTribal_Hunter>1</ESCP_MaormerTribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <ESCP_MaormerTribal_Farmer>1</ESCP_MaormerTribal_Farmer>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+  </FactionDef>
+
+  <ThingSetMakerDef>
+    <defName>ESCP_MaormerTribeRaidLootMaker</defName>
+    <root Class="ThingSetMaker_MarketValue">
+      <fixedParams>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+            <li>Jade</li>
+            <li>MedicineHerbal</li>
+            <li>Pemmican</li>
+          </thingDefs>
+        </filter>
+      </fixedParams>
+    </root>
+  </ThingSetMakerDef>
+  
+  <FactionDef ParentName="ESCP_MaormerTribeBase">
+    <defName>ESCP_MaormerTribeCivil</defName>
+    <label>Maormer kingdom</label>
+	<description>A collection of Maormer outposts, under the rule of a King. Maormer aren't exactly the most welcoming, even by Mer standards, and are openly hostile to Altmer.\n\nThese particular colonies pursues a, relatively, gentle way of life where they can. They are quite open to trade and alliances, even with strange peoples, except Altmer.</description>
+	<colorSpectrum>
+      <li>(0.3, 0.6, 0.7)</li>
+      <li>(0.4, 0.4, 0.7)</li>
+	  <li>(0.6, 0.6, 0.8)</li>
+    </colorSpectrum>
+	<requiredMemes>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+	</requiredMemes>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+    </disallowedMemes>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>40</configurationListOrderPriority>
+  </FactionDef>
+
+  <FactionDef ParentName="ESCP_MaormerTribeBase">
+    <defName>ESCP_MaormerTribeSavage</defName>
+    <label>Maormer pirates</label>
+	<description>A collection of Maormer outposts, under the rule of a 'King'. Maormer aren't exactly the most welcoming, even by Mer standards, and are openly hostile to Altmer.\n\nThese particular outposts are controlled by pirates, who are driven by a blood-and-honor culture; you will not be able to ally with them!</description>
+	<colorSpectrum>
+      <li>(0.85, 0, 0)</li>
+      <li>(0.85, 0.7, 0.7)</li>
+    </colorSpectrum>
+    <factionIconPath>World/WorldObjects/Expanding/ESCP_MaormerPirate</factionIconPath>
+    <permanentEnemy>true</permanentEnemy>
+	<factionNameMaker>ESCP_NamerFactionMaormerRaider</factionNameMaker>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+    </requiredMemes>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+    </disallowedMemes>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>60</configurationListOrderPriority>
+  </FactionDef>
+
+</Defs>
