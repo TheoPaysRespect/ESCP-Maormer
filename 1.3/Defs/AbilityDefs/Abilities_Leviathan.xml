@@ -10,8 +10,8 @@
 		<iconPath>UI/Abilities/ESCP_MaormerLightningBlast</iconPath>
 		<cooldownTime>7200</cooldownTime>
 		<castTime>15</castTime>
-		<chance>0</chance>
-		<range>12</range>
+		<chance>1</chance>	<!-- Makes it so non-player pawns can use it -->
+		<range>19</range>
 		<modExtensions>
 		  <li Class="VFECore.Abilities.AbilityExtension_Projectile">
 			<projectile>ESCP_MaormerLightningBlast</projectile>
