@@ -5,6 +5,9 @@
 		<defName>ESCP_MaormerRace</defName>
 		<label>Maormer</label>
 		<description>An elven race who, in poor lighting, might be mistaken for Altmer. Originally from Aldmeris, the Maormer launched a rebellion, and were summarily banished to Pyandonea. Since their banishment they have taken on some rather different characteristics.\n\n Maormer are often covered in scales, which some believe is due to the Maormer breeding with sea serpents. Some Maormer have pale eyes, as if all life has left their body. And almost all Maormer absolutely despise the Altmer.\n\nVery rarely a Maormer is born a leviathan, which many other races consider to be the progeny of a Maormer and sea serpent. Leviathans are far more dangerous than any regular Maormer, and even have enhanced control over electricity.</description>
+		<descriptionHyperlinks>
+			<HediffDef>ESCP_MaormerLeviathanHediff</HediffDef>
+		</descriptionHyperlinks>
 		<modExtensions>
 		</modExtensions>
 		<statBases>

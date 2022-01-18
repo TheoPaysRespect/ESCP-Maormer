@@ -5,7 +5,11 @@
 		<defName>ESCP_MaormerLeviathanHediff</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>leviathan</label>
-		<description>Some Maormer are born with a special connection to the storm, empowering them, and allowing them to fire electrical blasts.\n\nThere is the downside that these Maormer are comparatively feral, and far more at home in the water than on land.</description>
+		<description>Some Maormer are born with a special connection to the storm, empowering them, and granting them control over electricity.\n\nThere is the downside that these Maormer are comparatively feral, and far more at home in the water than on land.</description>
+		<descriptionHyperlinks>
+			<VFECore.Abilities.AbilityDef>ESCP_MaormerLightningBlast</VFECore.Abilities.AbilityDef>
+			<VFECore.Abilities.AbilityDef>ESCP_MaormerLightningBarrier</VFECore.Abilities.AbilityDef>
+		</descriptionHyperlinks>
 		<defaultLabelColor>(0.8, 0.6, 1.0)</defaultLabelColor>
 		<makesSickThought>false</makesSickThought>
 		<maxSeverity>1.0</maxSeverity>
