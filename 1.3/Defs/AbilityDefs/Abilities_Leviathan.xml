@@ -54,7 +54,7 @@
 		<abilityClass>VFECore.Abilities.Ability_Barrier</abilityClass>
 		<targetMode>Self</targetMode>
 		<iconPath>UI/Abilities/ESCP_LightningShield</iconPath>
-		<cooldownTime>43200</cooldownTime>
+		<cooldownTime>28800</cooldownTime>
 		<castTime>60</castTime>
 		<chance>1</chance>
 		<power>500</power>
