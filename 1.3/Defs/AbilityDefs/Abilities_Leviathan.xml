@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- Blast -->
+
 	<VFECore.Abilities.AbilityDef>
 		<defName>ESCP_MaormerLightningBlast</defName>
 		<label>leviathan lightning blast</label>
@@ -42,5 +44,27 @@
 			<speed>90</speed>
 		</projectile>
 	</ThingDef>
- 
+	
+	<!-- Barrier -->
+	
+	<VFECore.Abilities.AbilityDef>
+		<defName>ESCP_MaormerLightningBarrier</defName>
+		<label>leviathan lightning barrier</label>
+		<description>Create an electrical barrier around yourself, deflecting projectiles for 30 seconds.</description>
+		<abilityClass>VFECore.Abilities.Ability_Barrier</abilityClass>
+		<targetMode>Self</targetMode>
+		<iconPath>UI/Abilities/ESCP_LightningShield</iconPath>
+		<cooldownTime>43200</cooldownTime>
+		<castTime>60</castTime>
+		<chance>1</chance>
+		<power>500</power>
+		<durationTime>3600</durationTime>
+		<modExtensions>
+		  <li Class="VFECore.Abilities.AbilityExtension_Shield">
+			<shieldTexPath>Other/ESCP_LightningShield</shieldTexPath>
+		  </li>
+		</modExtensions>
+		<castSound>Explosion_EMP</castSound>
+	</VFECore.Abilities.AbilityDef>
+
 </Defs>
