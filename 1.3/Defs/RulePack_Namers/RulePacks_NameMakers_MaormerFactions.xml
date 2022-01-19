@@ -3,8 +3,12 @@
 
   <RulePackDef>
     <defName>ESCP_NamerSettlementMaormer</defName>
+	<include>
+		<li>TribalWordUtility</li>
+	</include>
     <rulePack>
       <rulesStrings>
+        <li>r_name->The [Color] [locations]</li>
         <li>r_name->The [b] [locations]</li>
         <li>r_name->[locations] of the [serpents]</li>
       </rulesStrings>

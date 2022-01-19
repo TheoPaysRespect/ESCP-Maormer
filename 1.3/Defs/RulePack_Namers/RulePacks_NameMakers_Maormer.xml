@@ -8,7 +8,9 @@
 		</include>
 		<rulePack>
 			<rulesStrings>
-				<li>name->[MaleList] [FamilyList]</li>
+				<li>name(p=5)->[MaleList] [FamilyList]</li>
+				<li>name(p=0.5)->[MaleList] '[Color] [serpents]' [FamilyList]</li>
+				<li>name(p=0.1)->[MaleList] '[b] [serpents]' [FamilyList]</li>
 			</rulesStrings>
 			<rulesRaw>
 				<li Class="Rule_File">
@@ -21,6 +23,8 @@
 				</li>
 			</rulesRaw>
 			<rulesFiles>
+				<li>b->ESCP_MaormerNames/MaormerFactionB</li>
+				<li>serpents->ESCP_MaormerNames/MaormerNamesSerpents</li>
 			</rulesFiles>
 		</rulePack>
 	</RulePackDef>
@@ -32,7 +36,9 @@
 		</include>
 		<rulePack>
 			<rulesStrings>
-				<li>name->[FemaleList] [FamilyList]</li>
+				<li>name(p=5)->[FemaleList] [FamilyList]</li>
+				<li>name(p=0.5)->[FemaleList] '[Color] [serpents]' [FamilyList]</li>
+				<li>name(p=0.1)->[FemaleList] '[b] [serpents]' [FamilyList]</li>
 			</rulesStrings>
 			<rulesRaw>
 				<li Class="Rule_File">
@@ -45,6 +51,8 @@
 				</li>
 			</rulesRaw>
 			<rulesFiles>
+				<li>b->ESCP_MaormerNames/MaormerFactionB</li>
+				<li>serpents->ESCP_MaormerNames/MaormerNamesSerpents</li>
 			</rulesFiles>
 		</rulePack>
 	</RulePackDef>
