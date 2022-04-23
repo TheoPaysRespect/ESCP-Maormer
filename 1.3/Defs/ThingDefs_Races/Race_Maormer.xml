@@ -9,6 +9,43 @@
 			<HediffDef>ESCP_MaormerLeviathanHediff</HediffDef>
 		</descriptionHyperlinks>
 		<modExtensions>
+			<li Class="ESCP_RaceTools.StuffKnowledge">
+				<stuffKnowledgeList>
+					<li>
+						<stuffList>
+							<li>ESCP_Resource_Orgnium_Ingot</li>	<!-- ESCP Core Resources -->
+						</stuffList>
+						<skillList>
+							<li>Crafting</li>
+						</skillList>
+						<notJustStuff>true</notJustStuff>
+						<requiredBackstory>ESCP_Maormer_StuffKnowledge_OrgniumBackstory</requiredBackstory>
+						<chance>1.0</chance>
+					</li>
+					<li>
+						<stuffList>
+							<li>ESCP_Resource_Buoyant_Steel_Ingot</li>	<!-- ESCP Core Resources -->
+						</stuffList>
+						<skillList>
+							<li>Crafting</li>
+						</skillList>
+						<notJustStuff>true</notJustStuff>
+						<requiredBackstory>ESCP_Maormer_StuffKnowledge_BuoyantSteelBackstory</requiredBackstory>
+						<chance>1.0</chance>
+					</li>
+					<li>
+						<stuffList>
+							<li>ESCP_Resource_Moonstone_Ingot</li>	<!-- ESCP Core Resources -->
+						</stuffList>
+						<skillList>
+							<li>Crafting</li>
+						</skillList>
+						<notJustStuff>true</notJustStuff>
+						<requiredBackstory>ESCP_Maormer_StuffKnowledge_MoonstoneBackstory</requiredBackstory>
+						<chance>0.3</chance>
+					</li>
+				</stuffKnowledgeList>
+            </li>
 		</modExtensions>
 		<statBases>
 			  <MarketValue>1900</MarketValue>
@@ -32,9 +69,11 @@
 			<nameGeneratorFemale>ESCP_NamerPersonMaormerFemale</nameGeneratorFemale>
 			<baseBodySize>1.1</baseBodySize>
 			<baseHealthScale>0.8</baseHealthScale>	
+			<!--	Now done through backstories
 			<hediffGiverSets>
 				<li>ESCP_MaormerLeviathan</li>
 			</hediffGiverSets>
+			-->
 		</race>
 	
 		<alienRace>
@@ -343,7 +382,7 @@
 			
 			<graphicPaths>
 				<li>
-					<head>Things/Pawn/Humanlike/ESCP_Maormer/Head/</head>
+					<head>Things/Pawn/Humanlike/ESCP_ScaledMerWithEyes/Head/</head>
 				</li>
 			</graphicPaths>
 
@@ -353,6 +392,10 @@
 			
 			<thoughtSettings>
 				<cannotReceiveThoughts>
+					<li>SoakingWet</li>
+					<li>AteInsectMeatDirect</li>
+					<li>AteInsectMeatAsIngredient</li>
+					<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_ateInsectEggAsIngredient</li>
 				</cannotReceiveThoughts>
 				<replacerList>
 				</replacerList>

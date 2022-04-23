@@ -58,7 +58,7 @@
 							<tab>ESCP_AchievementsTab</tab>
 							<tracker Class="Mashed_VanillaAchievementsExpanded.PawnHediffTracker">
 								<key>ESCP_MaormerRace</key>
-								<hediff>ESCP_MaormerLeviathanHediff</hediff>
+								<hediff>ESCP_MaormerLeviathanHediff_New</hediff>
 								<minSeverity>1</minSeverity>
 							</tracker>
 

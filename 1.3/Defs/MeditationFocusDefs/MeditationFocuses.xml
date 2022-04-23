@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MeditationFocusDef>
+    <defName>ESCP_MaormerSerpent</defName>
+    <label>serpentine</label>
+    <incompatibleBackstoriesAny>
+      <li>
+        <categoryName>ESCP_MaormerBackstory</categoryName>
+        <slot>Childhood</slot>
+      </li>
+    </incompatibleBackstoriesAny>
+  </MeditationFocusDef>
+
+</Defs>

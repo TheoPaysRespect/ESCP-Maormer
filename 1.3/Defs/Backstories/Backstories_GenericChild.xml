@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_PsychicallyGiftedBackstory_Child</defName>
+		<title>psychically gifted</title>
+		<titleShort>gifted</titleShort>
+		<baseDescription>[PAWN_nameDef] was born with a greater awareness of the unseen. After many years of mentoring by some of the highest ranking snake priests, [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift, and hear the voices of the serpents.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_MagicallyAttunedBackstory_Child</defName>
+		<title>magically attuned</title>
+		<titleShort>attuned</titleShort>
+		<baseDescription>[PAWN_nameDef] was born with a greater control over magicka than most. After many years of tutoring by some of the highest ranking snake mages, [PAWN_pronoun] learnt how to harness [PAWN_possessive] gift.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<!-- ==================== [ANIMALS] ==================== -->
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_SnakeTamerBackstory_Child</defName>
+		<title>snake tamer</title>
+		<titleShort>tamer</titleShort>
+		<baseDescription>Every aspiring sea serpent tamer had to start somewhere, and for [PAWN_nameDef], that was taming plain old snakes. [PAWN_pronoun] struggled at first, and may have been bitten a few times, but eventually [PAWN_nameDef] got the hang of handling them.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_CrabHerderBackstory_Child</defName>
+		<title>crab herder</title>
+		<titleShort>herder</titleShort>
+		<baseDescription>The Isles of Pyandonea were home to many crab farms, and [PAWN_nameDef] assisted at one of them. The crabs found there weren't particularly intelligent, as one would expect, but always seemed to find holes in the pen. [PAWN_nameDef] spent many days chasing escaped crabs, and mending broken fences.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_BugCollectorBackstory_Child</defName>
+		<title>bug collector</title>
+		<titleShort>collector</titleShort>
+		<baseDescription>[PAWN_nameDef] had quite the exquisite collection of bugs, all found natively in Pyandonea. While Pyandonea was home to many colourful arthropods, there were far too many for [PAWN_objective] to collect, but that never stopped [PAWN_nameDef].</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Hunting</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_ScallopDiggerBackstory_Child</defName>
+		<title>scallop digger</title>
+		<titleShort>digger</titleShort>
+		<baseDescription>[PAWN_nameDef] managed to earn a bit of coin digging for scallops. Days were long and tiring, likely because [PAWN_nameDef] spent quite a considerable amount of time digging in the wrong places.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- ==================== [Cooking] ==================== -->
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_AssistantCookBackstory_Child</defName>
+		<title>assistant cook</title>
+		<titleShort>assistant</titleShort>
+		<baseDescription>[PAWN_nameDef] provided assistance to some highly skilled cooks. While [PAWN_pronoun] learnt quite a few things, [PAWN_nameDef] didn't make it very far, as [PAWN_pronoun] really doesn't like plants.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>PlantWork</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- ==================== [Construction] ==================== -->
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_AssistantShipwrightBackstory_Child</defName>
+		<title>assistant shipwright</title>
+		<titleShort>assistant</titleShort>
+		<baseDescription>[PAWN_nameDef] provided assistance to the local shipwrights. [PAWN_nameDef] knew all the commonly used tools by heart, and eventually started handing them to the shipwrights before [PAWN_pronoun] was even asked to fetch it.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- ==================== [Crafting] ==================== -->
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_AssistantSmithBackstory_Child</defName>
+		<title>assistant smith</title>
+		<titleShort>assistant</titleShort>
+		<baseDescription>[PAWN_nameDef] provided assistance a rather skilled blacksmith Admittedly, [PAWN_nameDef] spent a substantial amount of time bandaging wounds, as [PAWN_nameDef] didn't quite seem to understand touching hot things was a bad idea.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Firefighting</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- ==================== [Medicine] ==================== -->
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_HealersAssistantBackstory_Child</defName>
+		<title>healers assistant</title>
+		<titleShort>assistant</titleShort>
+		<baseDescription>[PAWN_nameDef] provided assistance to one of the healers at the local temple. From preparing poultices to brewing elixirs, [PAWN_nameDef] could attempt it, but not necessarily succeed at it.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- ==================== [Melee] ==================== -->
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_PirateChildBackstory_Child</defName>
+		<title>pirate child</title>
+		<titleShort>pirate</titleShort>
+		<baseDescription>[PAWN_nameDef] was practically born into the pirate life, and spent most of [PAWN_possessive] early years at sea. [PAWN_pronoun] picked up some useful skills, though most were focused on the best places to stab opponents.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- ==================== [Mining] ==================== -->
+	
+	<!-- ==================== [Plants] ==================== -->
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_KelpHarvesterBackstory_Child</defName>
+		<title>kelp harvester</title>
+		<titleShort>harvester</titleShort>
+		<baseDescription>[PAWN_nameDef] made sure to always help during the kelp harvests. Admittedly, [PAWN_nameDef] just wanted to catch a glimpse of a sea serpent, maybe even touch one. Sadly, [PAWN_pronoun] never did.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_CoralEnthusiastBackstory_Child</defName>
+		<title>coral enthusiast</title>
+		<titleShort>enthusiast</titleShort>
+		<baseDescription>[PAWN_nameDef] was always fascinated by coral, especially all the different shapes and colours it came in. [PAWN_nameDef] even spent most of [PAWN_possessive] spare time reading about all the different species of coral that grows elsewhere.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<!-- ==================== [Intellectual] ==================== -->
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_EmbassyAssistantBackstory_Child</defName>
+		<title>embassy assistant</title>
+		<titleShort>assistant</titleShort>
+		<baseDescription>[PAWN_nameDef] was dragged to one of the many Maormer embassies by [PAWN_pronoun] parents, so it was only natural that [PAWN_pronoun] wound up as an assistant. Most days were spent organising scrolls and wardening guests, though ocassionally something exciting happened.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- ==================== [Shooting] ==================== -->
+
+	<!-- ==================== [Social] ==================== -->
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_TempleAssistantBackstory_Child</defName>
+		<title>temple assistant</title>
+		<titleShort>assistant</titleShort>
+		<baseDescription>[PAWN_nameDef] assisted at the local temple. This usually involved sweeping the floor, and ensuring candles were in good condition. But sometimes [PAWN_nameDef] would be tasked with organising the library, or leading guests around.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName = "ESCP_Maormer_ChildBackstory_base">
+		<defName>ESCP_Maormer_MerchantAssistantBackstory_Child</defName>
+		<title>merchants assistant</title>
+		<titleShort>assistant</titleShort>
+		<baseDescription>[PAWN_nameDef] assisted one of the many local merchants. Days were spent hauling crates of various goods around, reparing said crates when [PAWN_pronoun] dropped them, and occasionally working the counter.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+</Defs>

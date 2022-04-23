@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+	<ThoughtDef>
+		<defName>ESCP_MaormerOpinion_PirateRivalry</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>ESCP_RaceTools.ThoughtWorker_UniversalBackstoryOpinion_SharedUnqiue</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.ThoughtDefProperties">
+				<sharedBackstoryCategories>
+					<li>ESCP_MaormerPirate_KeelCutter_Backstory</li>
+					<li>ESCP_MaormerPirate_BlueVenom_Backstory</li>
+					<li>ESCP_MaormerPirate_WakeWalkers_Backstory</li>
+					<li>ESCP_MaormerPirate_Dreadsails_Backstory</li>
+				</sharedBackstoryCategories>
+			</li>
+		</modExtensions>
+		<stages>
+		  <li>
+			<label>Pirate band rivalry</label>
+			<baseOpinionOffset>-15</baseOpinionOffset>
+		  </li>
+		</stages>
+		<nullifyingTraits>
+		  <li>Kind</li>
+		</nullifyingTraits>
+	</ThoughtDef>
+
+ </Defs>
+ 

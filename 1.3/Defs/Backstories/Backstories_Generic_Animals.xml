@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_SeaAdderTamerBackstory</defName>
+		<title>sea adder tamer</title>
+		<titleShort>adder tamer</titleShort>
+		<baseDescription>[PAWN_nameDef] was rather skilled at taming sea adders. Admittedly this wasn't exactly something to brag about, as sea adders are far more manageable than the larger reef vipers, but [PAWN_nameDef] didn't really care.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_ReefViperTamerBackstory</defName>
+		<title>reef viper tamer</title>
+		<titleShort>viper tamer</titleShort>
+		<baseDescription>Even when reared in captivity, reef vipers are rather aggressive, and only those with a skilled touch are able to tame them. [PAWN_nameDef] was one such person, and even then [PAWN_pronoun] has nearly lost fingers a few times.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_ReefViperHandlerBackstory</defName>
+		<title>reef viper handler</title>
+		<titleShort>viper handler</titleShort>
+		<baseDescription>The Maormer were well known to employ the use of reef vipers when raiding Summerset, and [PAWN_nameDef] was one of the many in charge of handling them in the field. While being taken down by a reef viper is quite a terrifying experience, it's nothing compared tending the vipers wounds afterwards.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_CrabRancherBackstory</defName>
+		<title>crab rancher</title>
+		<titleShort>rancher</titleShort>
+		<baseDescription>Many kinds of crab could be found on Pyandonea, many of which were farmed for meat. [PAWN_nameDef] worked at a small family owned crab ranch down by the coast. While most of [PAWN_possessive] times was spent in the fields, quite a bit was also spent in the kitchen.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_PearlDiverBackstory</defName>
+		<title>pearl diver</title>
+		<titleShort>diver</titleShort>
+		<baseDescription>[PAWN_nameDef] decided to earn a living diving for pearls. This was easier said than done, as most of the reefs were home to sea serpents. But eventually [PAWN_nameDef] would find enough to make jewellery out of.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_SepAdderTamerBackstory</defName>
+		<title>sep adder tamer</title>
+		<titleShort>adder tamer</titleShort>
+		<baseDescription>While most Maormer chose to work with sea adders or reef vipers, assuming they wished to work with serpents at all, [PAWN_nameDef] decided to work with sep adders. Unlike the native serpents of Pyandonea, sep adders aren't exactly used to Maormer, and don't much care for being prodded with sticks. [PAWN_nameDef] learnt this the hard way, yet still [PAWN_pronoun] persevered.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_ThunderbugRancherBackstory</defName>
+		<title>thunderbug rancher</title>
+		<titleShort>thunderbug rancher</titleShort>
+		<baseDescription>[PAWN_nameDef] worked at a small thunderbug ranch. While the meat and chitin of thunderbugs were worth a decent amount, [PAWN_nameDef] was mostly interested in their hearts, and often experimented with them in [PAWN_possessive] spare time.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_CoraldaleCrabFarmerBackstory</defName>
+		<title>wasten coraldale mudcrab farmer</title>
+		<titleShort>mudcrab farmer</titleShort>
+		<baseDescription>[PAWN_nameDef] worked at one of the finest crab ranches on Pyandonea, for this one specialised in the Wasten Coraldale Mudcrab. The meat of the Wasten Coraldale Mudcrab is considered quite the delicacy by the Maormer, and [PAWN_nameDef] most certainly sampled some whenever possible.</baseDescription>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_SeaSerpentTamerBackstory</defName>
+		<title>sea serpent tamer</title>
+		<titleShort>serpent tamer</titleShort>
+		<baseDescription>[PAWN_nameDef] was among the most skilled tamers to be found on Pyandonea. While most tame sea adders and reef vipers, [PAWN_nameDef] tamed sea serpents, some of the largest, and most ferocious, serpents around.</baseDescription>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>10</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_SlaughterfishBreederBackstory</defName>
+		<title>slaughterfish breeder</title>
+		<titleShort>slaughterfish breeder</titleShort>
+		<baseDescription>One day [PAWN_nameDef] decided [PAWN_pronoun] wanted to rule the seas. Of course for most Maormer, plans such as these would involve forming a pirate crew, or taming a particularly large sea serpent. [PAWN_nameDef] decided to take [PAWN_possessive] plans for oceanic domination in a slightly different direction, and started breeding slaughterfish.\n\nEventually the swarm grew so large that there was no containing it. A few days leater [PAWN_nameDef] recieved word that one of Orgnum's prized sea serpents had been devoured. [PAWN_nameDef] took the first ship [PAWN_pronoun] could find.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<degree>-2</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+</Defs>

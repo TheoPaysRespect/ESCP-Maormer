@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- False Nerevarine -->
+
+	<AlienRace.PawnBioDef>
+		<defName>ESCP_Dunmer_DunmerBioNerevarine</defName>
+		<childhoodDef>ESCP_Dunmer_NerevarineBackstory_Child</childhoodDef>
+		<adulthoodDef>ESCP_Dunmer_FathisBackstory</adulthoodDef>
+		<gender>Male</gender> <!-- other options are Male and Female -->
+		<name>
+		  <first>Fathis</first>
+		  <last>Ulven</last>
+		  <nick>the Deranged</nick>
+		</name>
+		 <validRaces>
+		  <li>ESCP_DunmerRace</li>
+		</validRaces>
+		<factionLeader>false</factionLeader>
+	</AlienRace.PawnBioDef>
+	
+	<!-- Jiub -->
+	
+	<AlienRace.PawnBioDef>
+		<defName>ESCP_Dunmer_DunmerBioJiub</defName>
+		<childhoodDef>ESCP_Dunmer_JiubBackstory_Child</childhoodDef>
+		<adulthoodDef>ESCP_Dunmer_JiubBackstory</adulthoodDef>
+		<gender>Male</gender> <!-- other options are Male and Female -->
+		<name>
+		  <first>Jiub</first>
+		  <!--<last>Ulven</last>-->
+		  <nick>the Slayer</nick>
+		</name>
+		 <validRaces>
+		  <li>ESCP_DunmerRace</li>
+		</validRaces>
+		<factionLeader>false</factionLeader>
+	</AlienRace.PawnBioDef>
+	
+	<!-- Fast Eddie -->
+	
+	<AlienRace.PawnBioDef>
+		<defName>ESCP_Dunmer_DunmerBioEddie</defName>
+		<childhoodDef>ESCP_Dunmer_EddieBackstory_Child</childhoodDef>
+		<adulthoodDef>ESCP_Dunmer_EddieBackstory</adulthoodDef>
+		<gender>Male</gender> <!-- other options are Male and Female -->
+		<name>
+		  <first>Edd</first>
+		  <last>Therman</last>
+		  <nick>Fast Eddie</nick>
+		</name>
+		 <validRaces>
+		  <li>ESCP_DunmerRace</li>
+		</validRaces>
+		<factionLeader>false</factionLeader>
+	</AlienRace.PawnBioDef>
+	
+	<!-- Divayth Fyr -->
+	
+	<AlienRace.PawnBioDef>
+		<defName>ESCP_Dunmer_DunmerBioDivayth</defName>
+		<childhoodDef>ESCP_Dunmer_ChimerBackstory_Child</childhoodDef>
+		<adulthoodDef>ESCP_Dunmer_TelvanniBackstory</adulthoodDef>
+		<gender>Male</gender> <!-- other options are Male and Female -->
+		<name>
+		  <first>Divayth</first>
+		  <last>Fyr</last>
+		</name>
+		 <validRaces>
+		  <li>ESCP_DunmerRace</li>
+		</validRaces>
+		<factionLeader>false</factionLeader>
+	</AlienRace.PawnBioDef>
+	
+	<!-- Alfe Fyr -->
+	
+	<AlienRace.PawnBioDef>
+		<defName>ESCP_Dunmer_DunmerBioAlfe</defName>
+		<childhoodDef>ESCP_Dunmer_CloneDaughterBackstory_Child</childhoodDef>
+		<adulthoodDef>ESCP_Dunmer_TelvanniBackstory</adulthoodDef>
+		<gender>Female</gender> <!-- other options are Male and Female -->
+		<name>
+		  <first>Alfe</first>
+		  <last>Fyr</last>
+		</name>
+		 <validRaces>
+		  <li>ESCP_DunmerRace</li>
+		</validRaces>
+		<factionLeader>false</factionLeader>
+	</AlienRace.PawnBioDef>
+	
+	<!-- Beyte Fyr -->
+	
+	<AlienRace.PawnBioDef>
+		<defName>ESCP_Dunmer_DunmerBioBeyte</defName>
+		<childhoodDef>ESCP_Dunmer_CloneDaughterBackstory_Child</childhoodDef>
+		<adulthoodDef>ESCP_Dunmer_TelvanniCookBackstory</adulthoodDef>
+		<gender>Female</gender> <!-- other options are Male and Female -->
+		<name>
+		  <first>Beyte</first>
+		  <last>Fyr</last>
+		</name>
+		 <validRaces>
+		  <li>ESCP_DunmerRace</li>
+		</validRaces>
+		<factionLeader>false</factionLeader>
+	</AlienRace.PawnBioDef>
+	
+	<!-- Delte Fyr -->
+	
+	<AlienRace.PawnBioDef>
+		<defName>ESCP_Dunmer_DunmerBioDelte</defName>
+		<childhoodDef>ESCP_Dunmer_CloneDaughterBackstory_Child</childhoodDef>
+		<adulthoodDef>ESCP_Dunmer_TelvanniStewardBackstory</adulthoodDef>
+		<gender>Female</gender> <!-- other options are Male and Female -->
+		<name>
+		  <first>Delte</first>
+		  <last>Fyr</last>
+		</name>
+		 <validRaces>
+		  <li>ESCP_DunmerRace</li>
+		</validRaces>
+		<factionLeader>false</factionLeader>
+	</AlienRace.PawnBioDef>
+	
+	<!-- Uupse Fyr -->
+	
+	<AlienRace.PawnBioDef>
+		<defName>ESCP_Dunmer_DunmerBioUupse</defName>
+		<childhoodDef>ESCP_Dunmer_CloneDaughterBackstory_Child</childhoodDef>
+		<adulthoodDef>ESCP_Dunmer_CorprusariumBackstory</adulthoodDef>
+		<gender>Female</gender> <!-- other options are Male and Female -->
+		<name>
+		  <first>Uupse</first>
+		  <last>Fyr</last>
+		</name>
+		 <validRaces>
+		  <li>ESCP_DunmerRace</li>
+		</validRaces>
+		<factionLeader>false</factionLeader>
+	</AlienRace.PawnBioDef>
+
+</Defs>
