@@ -45,6 +45,32 @@
 		<stages>
 		  <li>
 			<label>Pirate band allegiance</label>
+			<baseOpinionOffset>10</baseOpinionOffset>
+		  </li>
+		</stages>
+		<!--
+		<nullifyingTraits>
+		  <li>Psychopath</li>
+		</nullifyingTraits>
+		-->
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>ESCP_MaormerOpinion_ArmadaAllegiance</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>ESCP_RaceTools.ThoughtWorker_UniversalBackstoryOpinion_Shared</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.ThoughtDefProperties">
+				<sharedBackstoryCategories>
+					<li>ESCP_MaormerArmada_StormSharks_Backstory</li>
+					<li>ESCP_MaormerArmada_SeaVipers_Backstory</li>
+				</sharedBackstoryCategories>
+			</li>
+		</modExtensions>
+		<stages>
+		  <li>
+			<label>Armada allegiance</label>
 			<baseOpinionOffset>5</baseOpinionOffset>
 		  </li>
 		</stages>

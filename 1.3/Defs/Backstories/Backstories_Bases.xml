@@ -7,11 +7,12 @@
 			[Generic]
 			ESCP_MaormerBackstory
 
-			[Other factions]
+			[Pirate factions]
 			ESCP_MaormerPirate_KeelCutter_Backstory
 			ESCP_MaormerPirate_BlueVenom_Backstory
 			ESCP_MaormerPirate_WakeWalkers_Backstory
 			ESCP_MaormerPirate_Dreadsails_Backstory
+			[Armada factions]
 			ESCP_MaormerArmada_StormSharks_Backstory
 			ESCP_MaormerArmada_SeaVipers_Backstory
 			
