@@ -30,7 +30,7 @@
 		<defName>ESCP_Maormer_DreadsailsWarriorBackstory</defName>
 		<title>Dreadsails warrior</title>
 		<titleShort>warrior</titleShort>
-		<baseDescription>[PAWN_nameDef] was a member of the Dreadsails, admittedly not entirely by choice, at least not anymore. What once seemed like a good idea, a pathway to fame, fortune and glory, now simply lead to an early grave. Not that [PAWN_nameDef] would even be allowed to rest in death.</baseDescription>
+		<baseDescription>[PAWN_nameDef] was a member of the Dreadsails, admittedly not entirely by choice, at least not anymore. What once seemed like a good idea, a pathway to fame, fortune and glory, [PAWN_nameDef] realised would simply lead to an early grave. Not that [PAWN_nameDef] would even be allowed to rest in death.</baseDescription>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		</spawnCategories>
