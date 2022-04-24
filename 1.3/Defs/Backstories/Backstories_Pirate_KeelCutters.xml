@@ -80,7 +80,7 @@
 		<defName>ESCP_Maormer_KeelCutterChampionBackstory</defName>
 		<title>Keel Cutter champion</title>
 		<titleShort>champion</titleShort>
-		<baseDescription>Once an elite member of the Pyandonean Armada, [PAWN_nameDef] was stripped of [PAWN_possessive] position after an unfortunate incident. [PAWN_possessive] didn't last for long though, as [PAWN_nameDef] was quickly recruited by the Keel Cutters, who were rather impressed with the rumors they had heard.</baseDescription>
+		<baseDescription>Once an elite member of the Pyandonean Armada, [PAWN_nameDef] was stripped of [PAWN_possessive] position after an unfortunate incident. [PAWN_possessive] 'retirement' didn't last for long though, as [PAWN_nameDef] was quickly recruited by the Keel Cutters, who were rather impressed with the rumors they had heard.</baseDescription>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<spawnCategories>
 		</spawnCategories>
