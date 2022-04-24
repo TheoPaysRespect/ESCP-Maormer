@@ -26,6 +26,32 @@
 		  <li>Kind</li>
 		</nullifyingTraits>
 	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>ESCP_MaormerOpinion_PirateAllegiance</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>ESCP_RaceTools.ThoughtWorker_UniversalBackstoryOpinion_Shared</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.ThoughtDefProperties">
+				<sharedBackstoryCategories>
+					<li>ESCP_MaormerPirate_KeelCutter_Backstory</li>
+					<li>ESCP_MaormerPirate_BlueVenom_Backstory</li>
+					<li>ESCP_MaormerPirate_WakeWalkers_Backstory</li>
+					<li>ESCP_MaormerPirate_Dreadsails_Backstory</li>
+				</sharedBackstoryCategories>
+			</li>
+		</modExtensions>
+		<stages>
+		  <li>
+			<label>Pirate band allegiance</label>
+			<baseOpinionOffset>5</baseOpinionOffset>
+		  </li>
+		</stages>
+		<nullifyingTraits>
+		  <li>Psychopath</li>
+		</nullifyingTraits>
+	</ThoughtDef>
 
  </Defs>
  
