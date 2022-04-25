@@ -7,7 +7,7 @@
 		
 	-->
 
-	<AlienRace.BackstoryDef Abstract="True" Name="ESCP_MaormerWakeWalkerAdultBackstory_base" ParentName="ESCP_Maormer_AdultBackstory_base">
+	<AlienRace.BackstoryDef Abstract="True" Name="ESCP_MaormerWakeWalkersAdultBackstory_base" ParentName="ESCP_Maormer_AdultBackstory_base">
 		<spawnCategories>
           <li>ESCP_MaormerPirate_WakeWalkers_Backstory</li>
         </spawnCategories>
@@ -30,7 +30,7 @@
 	
 	<!-- ==================== [Melee] ==================== -->
 
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkerAdultBackstory_base">
+	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
 		<defName>ESCP_Maormer_WakeWalkerBlademasterBackstory</defName>
 		<title>Wake Walkers blademaster</title>
 		<titleShort>blademaster</titleShort>
@@ -56,7 +56,7 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkerAdultBackstory_base">
+	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
 		<defName>ESCP_Maormer_WakeWalkerSentinelBackstory</defName>
 		<title>Wake Walkers sentinel</title>
 		<titleShort>sentinel</titleShort>
@@ -81,7 +81,7 @@
 
 	<!-- ==================== [Ranged] ==================== -->
 
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkerAdultBackstory_base">
+	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
 		<defName>ESCP_Maormer_WakeWalkerArcherBackstory</defName>
 		<title>Wake Walkers archer</title>
 		<titleShort>archer</titleShort>
@@ -113,7 +113,7 @@
 
 	<!-- ==================== [Intellectual] ==================== -->
 
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkerAdultBackstory_base">
+	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
 		<defName>ESCP_Maormer_WakeWalkerMenderBackstory</defName>
 		<title>Wake Walkers mender</title>
 		<titleShort>mender</titleShort>
@@ -143,7 +143,7 @@
 	
 	<!-- ==================== [Animals] ==================== -->
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkerAdultBackstory_base">
+	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
 		<defName>ESCP_Maormer_WakeWalkerBeastmasterBackstory</defName>
 		<title>Wake Walkers beastmaster</title>
 		<titleShort>beastmaster</titleShort>
@@ -169,7 +169,7 @@
 		<femaleCommonality>30</femaleCommonality>
 	</AlienRace.BackstoryDef>
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkerAdultBackstory_base">
+	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
 		<defName>ESCP_Maormer_WakeWalkerCaptainBackstory</defName>
 		<title>Wake Walkers captain</title>
 		<titleShort>captain</titleShort>
