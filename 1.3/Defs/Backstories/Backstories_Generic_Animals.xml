@@ -120,6 +120,7 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
+			<li>Mining</li>
 		</workDisables>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
@@ -146,6 +147,7 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
+			<li>Intellectual</li>
 		</workDisables>
 		<maleCommonality>70</maleCommonality>
 		<femaleCommonality>70</femaleCommonality>
@@ -232,6 +234,8 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
+			<li>PlantWork</li>
+			<li>Mining</li>
 		</workDisables>
 		<maleCommonality>25</maleCommonality>
 		<femaleCommonality>25</femaleCommonality>

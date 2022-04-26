@@ -102,6 +102,8 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
+			<li>Constructing</li>
+			<li>Mining</li>
 		</workDisables>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>

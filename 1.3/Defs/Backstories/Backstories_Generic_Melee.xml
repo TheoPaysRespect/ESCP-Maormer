@@ -22,6 +22,7 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
+			<li>Intellectual</li>
 		</workDisables>
 	</AlienRace.BackstoryDef>
 
@@ -98,6 +99,8 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
+			<li>Caring</li>
+			<li>ManualDumb</li>
 		</workDisables>
 		<maleCommonality>70</maleCommonality>
 		<femaleCommonality>70</femaleCommonality>
@@ -126,6 +129,8 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
+			<li>ManualDumb</li>
+			<li>PlantWork</li>
 		</workDisables>
 		<maleCommonality>50</maleCommonality>
 		<femaleCommonality>50</femaleCommonality>

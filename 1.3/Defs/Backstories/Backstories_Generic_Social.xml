@@ -22,6 +22,7 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
+			<li>ManualDumb</li>
 		</workDisables>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
@@ -45,6 +46,8 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
 		</workDisables>
 		<maleCommonality>50</maleCommonality>
 		<femaleCommonality>50</femaleCommonality>

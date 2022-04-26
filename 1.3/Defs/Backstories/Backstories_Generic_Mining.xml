@@ -71,6 +71,7 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
+			<li>Intellectual</li>
 		</workDisables>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
@@ -97,6 +98,7 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
+			<li>Cleaning</li>
 		</workDisables>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>

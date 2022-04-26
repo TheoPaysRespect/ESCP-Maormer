@@ -384,9 +384,11 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
+			<li>Shooting</li>
 			<li>Social</li>
 			<li>Caring</li>
 			<li>Intellectual</li>
+			<li>ManualSkilled</li>
 		</workDisables>
 		<forcedHediffs>
 			<li>ESCP_MaormerLeviathanHediff_New</li>
@@ -422,9 +424,11 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
+			<li>Shooting</li>
 			<li>Social</li>
 			<li>Caring</li>
 			<li>Intellectual</li>
+			<li>ManualSkilled</li>
 		</workDisables>
 		<forcedHediffs>
 			<li>ESCP_MaormerLeviathanHediff_New</li>
