@@ -332,20 +332,22 @@
 		<skillGains>
 			<li>
 				<defName>Shooting</defName>
-				<amount>4</amount>
+				<amount>6</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
 			<li>
 				<defName>ShootingAccuracy</defName>
 				<degree>1</degree>
-				<chance>50</chance>
+				<chance>100</chance>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
 		</workDisables>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
 	</AlienRace.BackstoryDef>
 	
 	<AlienRace.BackstoryDef ParentName="ESCP_MaormerSeaVipersAdultBackstory_base">
@@ -619,7 +621,7 @@
 		<defName>ESCP_Maormer_SeaVipersCommodoreBackstory</defName>
 		<title>Sea Vipers commodore</title>
 		<titleShort>commodore</titleShort>
-		<baseDescription>Many moons ago, [PAWN_nameDef] was one of the commodores of the Sea Vipers. [PAWN_pronoun] commanded several ships in the Sea Vipers, and was considered quite a tactical genious. Sadly even [PAWN_possessive] intellect wasn't enough to capture Summerset, and [PAWN_nameDef] wound up stepping down after the failed invasion.</baseDescription>
+		<baseDescription>Many moons ago, [PAWN_nameDef] was one of the commodores of the Sea Vipers. [PAWN_pronoun] commanded several ships in the Sea Vipers, and was considered quite a tactical genius. Sadly even [PAWN_possessive] intellect wasn't enough to capture Summerset, and [PAWN_nameDef] wound up stepping down after the failed invasion.</baseDescription>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -645,8 +647,8 @@
 			<li>ManualDumb</li>
 			<li>ManualSkilled</li>
 		</workDisables>
-		<maleCommonality>1</maleCommonality>
-		<femaleCommonality>1</femaleCommonality>
+		<maleCommonality>3</maleCommonality>
+		<femaleCommonality>3</femaleCommonality>
 	</AlienRace.BackstoryDef>
 
 </Defs>
