@@ -38,6 +38,8 @@
               <li>ESCP_MaormerSerpentSculptureLarge</li>
 				-->
               <li>ESCP_MaormerSerpentSculptureGrand</li>
+              <li>ESCP_MaormerSerpentTotemLeft</li>
+              <li>ESCP_MaormerSerpentTotemRight</li>
             </defs>
             <radius>9.9</radius>
             <maxBuildings>8</maxBuildings>
@@ -121,30 +123,75 @@
   <ThingDef ParentName="ESCP_MaormerSculptureBase">
     <defName>ESCP_MaormerSerpentSculptureGrand</defName>
     <label>grand serpent sculpture</label>
-    <description>A huge serpentine sculpture, sized to dominate a room.</description>
+    <description>An enomrous serpentine sculpture, sized to dominate a room.</description>
     <castEdgeShadows>true</castEdgeShadows>
     <graphicData>
       <graphicClass>Graphic_Random</graphicClass>
       <texPath>Things/Building/Art/ESCP_Maormer_SerpentSculptureGrand</texPath>
-      <drawSize>(2.5,2.5)</drawSize>
+      <drawSize>(3.0,3.0)</drawSize>
     </graphicData>
     <fillPercent>0.5</fillPercent>
     <rotatable>false</rotatable>
-    <size>(2,2)</size>
+    <size>(3,3)</size>
     <canOverlapZones>false</canOverlapZones>
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>
-      <Beauty>400</Beauty>
+      <Beauty>500</Beauty>
       <Mass>28</Mass>
       <WorkToMake>105000</WorkToMake>
-      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
+      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">60</StyleDominance>
     </statBases>
     <stuffCategories>
       <li>Metallic</li>
       <li>Woody</li>
       <li>Stony</li>
     </stuffCategories>
-    <costStuffCount>400</costStuffCount>
+    <costStuffCount>500</costStuffCount>
+  </ThingDef>
+  
+  <!-- [Totems] -->
+  
+  <ThingDef ParentName="ESCP_MaormerSculptureBase" Name="ESCP_MaormerTotemBase" Abstract="True">
+    <description>A large serpentine totem.</description>
+    <castEdgeShadows>true</castEdgeShadows>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2.5,2.5)</drawSize>
+	  <drawOffset>0,0,1</drawOffset>
+    </graphicData>
+    <fillPercent>0.5</fillPercent>
+    <rotatable>false</rotatable>
+    <size>(1,1)</size>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Beauty>200</Beauty>
+      <Mass>18</Mass>
+      <WorkToMake>55000</WorkToMake>
+      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">30</StyleDominance>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>250</costStuffCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="ESCP_MaormerTotemBase">
+    <defName>ESCP_MaormerSerpentTotemLeft</defName>
+    <label>serpent totem (left)</label>
+    <graphicData>
+      <texPath>Things/Building/Art/ESCP_Maormer_SerpentTotem/ESCP_Maormer_SerpentTotemLeft</texPath>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef ParentName="ESCP_MaormerTotemBase">
+    <defName>ESCP_MaormerSerpentTotemRight</defName>
+    <label>serpent totem (right)</label>
+    <graphicData>
+      <texPath>Things/Building/Art/ESCP_Maormer_SerpentTotem/ESCP_Maormer_SerpentTotemRight</texPath>
+    </graphicData>
   </ThingDef>
  
 </Defs>
