@@ -5,9 +5,54 @@
     <defName>ESCP_MaormerStyle</defName>
     <label>Maormeri</label>
     <iconPath>World/WorldObjects/Expanding/ESCP_MaormerPirate</iconPath>
-
+	<soundOngoingRitual>Ambient_Wind_Desolate</soundOngoingRitual>
+	<ritualVisualEffectDef>ESCP_Maormeri</ritualVisualEffectDef>
     <thingDefStyles>
-
+		  <li>
+			<thingDef>SculptureSmall</thingDef>
+			<styleDef>ESCP_Maormeri_SculptureSmall</styleDef>
+		  </li>
+		  <li>
+			<thingDef>StandingLamp</thingDef>
+			<styleDef>ESCP_Maormeri_StandingLamp</styleDef>
+		  </li>
+		  <li>
+			<thingDef>StandingLamp_Red</thingDef>
+			<styleDef>ESCP_Maormeri_StandingLamp_Red</styleDef>
+		  </li>
+		  <li>
+			<thingDef>StandingLamp_Green</thingDef>
+			<styleDef>ESCP_Maormeri_StandingLamp_Green</styleDef>
+		  </li>
+		  <li>
+			<thingDef>StandingLamp_Blue</thingDef>
+			<styleDef>ESCP_Maormeri_StandingLamp_Blue</styleDef>
+		  </li>
+		  <li>
+			<thingDef>Darklamp</thingDef>
+			<styleDef>ESCP_Maormeri_DarklampStanding</styleDef>
+		  </li>
+		  <!-- [ESCP Tools] -->
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern</thingDef>
+			<styleDef>ESCP_Maormeri_StandingLamp</styleDef>
+		  </li>
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Red</thingDef>
+			<styleDef>ESCP_Maormeri_StandingLamp_Red</styleDef>
+		  </li>
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Green</thingDef>
+			<styleDef>ESCP_Maormeri_StandingLamp_Green</styleDef>
+		  </li>
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Blue</thingDef>
+			<styleDef>ESCP_Maormeri_StandingLamp_Blue</styleDef>
+		  </li>
+		  <li MayRequire="Rick.ESCPTools">
+			<thingDef>ESCP_IronLantern_Dark</thingDef>
+			<styleDef>ESCP_Maormeri_DarklampStanding</styleDef>
+		  </li>
     </thingDefStyles>
 
   </StyleCategoryDef>

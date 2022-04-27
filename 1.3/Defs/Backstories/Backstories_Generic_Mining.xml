@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_OrgniumMinerBackstory</defName>
+		<title>orgnium miner</title>
+		<titleShort>miner</titleShort>
+		<baseDescription>[PAWN_nameDef] slaved away in one of the largest orgnium mines on Pyandonea. Many days were spent delving into the depths, searching for even the smallest traces of orgnium.</baseDescription>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Mining</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_CavernExcavatorBackstory</defName>
+		<title>cavern excavator</title>
+		<titleShort>excavator</titleShort>
+		<baseDescription>[PAWN_nameDef] decided to take on the back-breaking work of excavating caverns. Not only did [PAWN_nameDef] need to be good with a pick, [PAWN_pronoun] needed to be good with a hammer too.</baseDescription>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Mining</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_OutpostMinerBackstory</defName>
+		<title>outpost miner</title>
+		<titleShort>miner</titleShort>
+		<baseDescription>[PAWN_nameDef] worked at one of the many mines the Maormer had set up in off the coast of Valenwood, with the goal of finding precious minerals. Tensions were always high, as [PAWN_nameDef] and his fellow miners didn't exactly have permission to be there, and at any second arrows could start raining down from between the trees.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Mining</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_TreasureHunterBackstory</defName>
+		<title>treasure hunter</title>
+		<titleShort>hunter</titleShort>
+		<baseDescription>[PAWN_nameDef] was an aspiring treasure hunter, which meant [PAWN_pronoun] spent most days digging around in the sand, hoping to find something worth anything. [PAWN_nameDef] did find a few sea serpent scales, and some Altmer bones, but that was about it.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Mining</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Cleaning</li>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+</Defs>

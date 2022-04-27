@@ -13,6 +13,13 @@
       <li>Medieval</li>
 	  <li>MedievalBasic</li>
     </apparelTags>
+	<backstoryFiltersOverride>
+		  <li>
+			<categories>
+			  <li>ESCP_MaormerBackstory</li>
+			</categories>
+		  </li>
+	</backstoryFiltersOverride>
   </PawnKindDef>
 
   <!-- Poverty tier - penitent -->
@@ -179,6 +186,29 @@
     </disallowedTraits>
     <initialWillRange>2~4</initialWillRange>
     <initialResistanceRange>14~22</initialResistanceRange>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="ESCP_MaormerTribalBase">
+    <defName>ESCP_MaormerTribal_Leviathan</defName>
+    <label>leviathan</label>
+    <combatPower>90</combatPower>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>150~350</apparelMoney>
+    <apparelRequired>
+    </apparelRequired>
+    <weaponMoney>300~450</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeDestructive</li>
+    </weaponTags>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>19~30</initialResistanceRange>
+	<backstoryFiltersOverride Inherit="False">
+		  <li>
+			<categories>
+			  <li>ESCP_MaormerLeviathanBackstory</li>
+			</categories>
+		  </li>
+	</backstoryFiltersOverride>
   </PawnKindDef>
 
   <PawnKindDef ParentName="ESCP_MaormerTribalBase" Name="ESCP_MaormerTribalChiefBase" Abstract="True">

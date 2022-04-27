@@ -38,7 +38,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>ESCP_MaormerLightningBurn</damageDef>
-			<damageAmountBase>10</damageAmountBase>
+			<damageAmountBase>15</damageAmountBase>
 			<explosionRadius>1.9</explosionRadius>
 			<stoppingPower>1.2</stoppingPower>
 			<speed>90</speed>

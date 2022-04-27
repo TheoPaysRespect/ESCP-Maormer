@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_ScallopFarmerBackstory</defName>
+		<title>scallop farmer</title>
+		<titleShort>farmer</titleShort>
+		<baseDescription>[PAWN_nameDef] owned a small scallop farm back on Pyandonea. Admittedly the scallop were incredibly easy to look after, and [PAWN_nameDef] actually spent most days cooking.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_FireSaltCookBackstory</defName>
+		<title>fire salts cook</title>
+		<titleShort>cook</titleShort>
+		<baseDescription>While [PAWN_nameDef] wasn't exactly the best cook out there, [PAWN_pronoun] did know how to cook using fire salts, and this made [PAWN_objective] invaluable on long voyages.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_FisherBackstory</defName>
+		<title>fisher</title>
+		<titleShort>fisher</titleShort>
+		<baseDescription>While [PAWN_nameDef] worked a tiring job during the day, [PAWN_pronoun] enjoyed relaxing near the coast, and fishing for a while. Admittedly this wasn't actually that relaxing, as there was always the chance that a sea serpent lurking was lurking in the kelp.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_CoraldaleCrabCookBackstory</defName>
+		<title>wasten coraldale mudcrab chef</title>
+		<titleShort>mudcrab chef</titleShort>
+		<baseDescription>[PAWN_nameDef] earnt quite a living cooking wasten coraldale mudcrab. [PAWN_possessive] dishes were considered some of the finest on Pyandonea, which [PAWN_nameDef] could most certainly attest to.</baseDescription>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Constructing</li>
+			<li>Mining</li>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+</Defs>

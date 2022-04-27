@@ -5,10 +5,15 @@
 		<defName>ESCP_MaormerKind</defName>
 		<label>Maormer</label>
 		<race>ESCP_MaormerRace</race>
-		<backstoryCategories>
-		  <li>Outlander</li>
-		  <li>ESCP_MaormerOutlander</li>
-		</backstoryCategories>	
+		<backstoryFiltersOverride>
+		  <li>
+			<categories>
+			  <li>Outlander</li>
+			  <li>ESCP_MaormerOutlander</li>
+			  <li>ESCP_MaormerBackstory</li>
+			</categories>
+		  </li>
+		</backstoryFiltersOverride>
 		<combatPower>40</combatPower>
 		<baseRecruitDifficulty>0.65</baseRecruitDifficulty>
 		<isFighter>false</isFighter>
@@ -37,10 +42,13 @@
 		<defName>ESCP_MaormerTribalKind</defName>
 		<label>Maormer tribal</label>
 		<race>ESCP_MaormerRace</race>
-		<backstoryCategories>
-		  <li>Tribal</li>
-		  <li>ESCP_MaormerTribal</li>
-		</backstoryCategories>
+		<backstoryFiltersOverride>
+		  <li>
+			<categories>
+			  <li>ESCP_MaormerBackstory</li>
+			</categories>
+		  </li>
+		</backstoryFiltersOverride>
 		<combatPower>40</combatPower>
 		<baseRecruitDifficulty>0.80</baseRecruitDifficulty>
 		<isFighter>false</isFighter>
@@ -71,11 +79,13 @@
 		<defName>ESCP_MaormerMedievalKind</defName>
 		<label>Maormer peasant</label>
 		<race>ESCP_MaormerRace</race>
-		<backstoryCategories>
-		  <li>Tribal</li>
-		  <li>ESCP_MaormerTribal</li>
-		  <li>ESCP_MaormerMedieval</li>
-		</backstoryCategories>
+		<backstoryFiltersOverride>
+		  <li>
+			<categories>
+			  <li>ESCP_MaormerBackstory</li>
+			</categories>
+		  </li>
+		</backstoryFiltersOverride>
 		<combatPower>40</combatPower>
 		<baseRecruitDifficulty>0.80</baseRecruitDifficulty>
 		<isFighter>false</isFighter>

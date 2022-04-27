@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_PriestBackstory</defName>
+		<title>priest</title>
+		<titleFemale>priestess</titleFemale>
+		<baseDescription>[PAWN_nameDef] provided aid and counsel to any who sought it. Whether it was giving kind words, or tending wounds. [PAWN_nameDef] would try [PAWN_possessive] best to help those in need.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>2</degree>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+        </disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_SerpentPriestBackstory</defName>
+		<title>serpent priest</title>
+		<titleFemale>serpent priestess</titleFemale>
+		<titleShort>priest</titleShort>
+		<titleShortFemale>priestess</titleShortFemale>
+		<baseDescription>[PAWN_nameDef] was one of the many serpent priests, and was almost as good at communicating with serpents as [PAWN_pronoun] was with Maormer. This proved useful when dealing with those with waning faith.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>25</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>2</degree>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+        </disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_SatakalProphetTamerBackstory</defName>
+		<title>prophet of Satakal</title>
+		<titleShort>prophet</titleShort>
+		<baseDescription>Many believed Satakal spoke directly through [PAWN_nameDef]. Of course this was considered somewhat heretical, as how could Satakal speak through [PAWN_nameDef] if he already speaks through Kind Orgnum. Needless to say, [PAWN_nameDef] eventually decided it was best to lay low for a while.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+</Defs>

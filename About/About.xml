@@ -39,6 +39,7 @@
 	  <li>Ludeon.RimWorld.Royalty</li>
       <li>erdelf.HumanoidAlienRaces</li>
       <li>SirMashedPotato.ESCP.RaceTools</li>
+      <li>Rick.ESCPTools</li>
 	  <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
     </loadAfter>
 	<loadBefore>

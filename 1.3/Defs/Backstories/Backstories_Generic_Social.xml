@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_MerchantBackstory</defName>
+		<title>merchant</title>
+		<titleShort>merchant</titleShort>
+		<baseDescription>[PAWN_nameDef] had made several deals with local ship crews, [PAWN_pronoun] purchased their goods, and sold them for a sizeable profit. [PAWN_pronoun] really didn't care where the goods came from, and was well aware that several of the crews [PAWN_pronoun] made deals with were pirate bands.</baseDescription>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_DiplomatBackstory</defName>
+		<title>diplomat</title>
+		<titleShort>diplomat</titleShort>
+		<baseDescription>Occasionally the Maormer did conduct diplomacy, and when they did they would need someone with a sharp tongue, such as [PAWN_nameDef]. [PAWN_pronoun] had to be good, as being a Maormer [PAWN_nameDef] was always at a disadvantage.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>8</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+		</workDisables>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+</Defs>

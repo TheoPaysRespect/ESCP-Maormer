@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- 
+		
+		Melee focused pirate band, with a focus on aggression.
+		All backstories give Violent Meditation.
+		
+	-->
+
+	<AlienRace.BackstoryDef Abstract="True" Name="ESCP_MaormerKeelCutterAdultBackstory_base" ParentName="ESCP_Maormer_AdultBackstory_base">
+		<spawnCategories>
+          <li>ESCP_MaormerPirate_KeelCutter_Backstory</li>
+        </spawnCategories>
+		<forcedTraits>
+		</forcedTraits>
+		<workDisables>
+			<li>Artistic</li>
+			<li>PlantWork</li>
+			<li>Animals</li>
+		</workDisables>
+		<disallowedTraits>
+            <li>
+                <defName>Wimp</defName>
+            </li>
+        </disallowedTraits>
+		<forcedHediffs>
+			<li>ESCP_ViolentMeditationHediff</li>
+		</forcedHediffs>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<!-- ==================== [Melee] ==================== -->
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_MaormerKeelCutterAdultBackstory_base">
+		<defName>ESCP_Maormer_KeelCutterButcherBackstory</defName>
+		<title>Keel Cutter butcher</title>
+		<titleShort>butcher</titleShort>
+		<baseDescription>In all honesty, [PAWN_nameDef] just really enjoyed stabbing people, and was rather proficient at it. So proficient in fact that [PAWN_pronoun] easily became part of the Keel Cutters, and wound up becoming a sort of torturer for them.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_MaormerKeelCutterAdultBackstory_base">
+		<defName>ESCP_Maormer_KeelCutterRavagerBackstory</defName>
+		<title>Keel Cutter ravager</title>
+		<titleShort>ravager</titleShort>
+		<baseDescription>For [PAWN_nameDef], there was no better feeling in the world than the feeling of metal slicing through flesh. Luckily, life in the Keel Cutters provided ample opportunities for this.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>40</maleCommonality>
+		<femaleCommonality>40</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_MaormerKeelCutterAdultBackstory_base">
+		<defName>ESCP_Maormer_KeelCutterChampionBackstory</defName>
+		<title>Keel Cutter champion</title>
+		<titleShort>champion</titleShort>
+		<baseDescription>Once an elite member of the Pyandonean Armada, [PAWN_nameDef] was stripped of [PAWN_possessive] position after an unfortunate incident. [PAWN_possessive] 'retirement' didn't last for long though, as [PAWN_nameDef] was quickly recruited by the Keel Cutters, who were rather impressed with the rumors they had heard.</baseDescription>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>8</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="ESCP_MaormerKeelCutterAdultBackstory_base">
+		<defName>ESCP_Maormer_KeelCutterThundermaulBackstory</defName>
+		<title>Keel Cutter thundermaul</title>
+		<titleShort>thundermaul</titleShort>
+		<baseDescription>While [PAWN_nameDef] always had some slight magical skills, and a bit of an affinity towards lightning magic, [PAWN_pronoun] did also just enjoy smashing things with a big maul. The Keel Cutters didn't mind this, and in fact actively encouraged it, which made [PAWN_nameDef] feel right at home.</baseDescription>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<!-- ==================== [Ranged] ==================== -->
+
+	<AlienRace.BackstoryDef ParentName="ESCP_MaormerKeelCutterAdultBackstory_base">
+		<defName>ESCP_Maormer_KeelCutterArcherBackstory</defName>
+		<title>Keel Cutter archer</title>
+		<titleShort>archer</titleShort>
+		<baseDescription>While the pirates of the Keel Cutters greatly preferred feeling someones limb separating from their body, some such as [PAWN_nameDef] liked to keep a respectable distance from their foes. This preference did come in handy when someone tried running away, while others would have to chase after them, [PAWN_nameDef] would just ready an arrow.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_MaormerKeelCutterAdultBackstory_base">
+		<defName>ESCP_Maormer_KeelCutterVanquisherBackstory</defName>
+		<title>Keel Cutter vanquisher</title>
+		<titleShort>vanquisher</titleShort>
+		<baseDescription>[PAWN_nameDef] always thought it was strange that [PAWN_pronoun] fellow Keel Cutters limited themselves so much. [PAWN_pronoun] knew that anyone with half a brain had a sword for stabbing people up close, and some javelins for anyone that tries to run away.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>40</maleCommonality>
+		<femaleCommonality>40</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<!-- ==================== [Intellectual] ==================== -->
+
+	<AlienRace.BackstoryDef ParentName="ESCP_MaormerKeelCutterAdultBackstory_base">
+		<defName>ESCP_Maormer_KeelCutterMenderBackstory</defName>
+		<title>Keel Cutter mender</title>
+		<titleShort>mender</titleShort>
+		<baseDescription>Pirates of the Keel Cutters were quite ruthless, and often wound up with several injuries after a skirmish. So they recruited [PAWN_nameDef], a reasonably skilled healer with no moral quandaries.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>40</maleCommonality>
+		<femaleCommonality>40</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_MaormerKeelCutterAdultBackstory_base">
+		<defName>ESCP_Maormer_KeelCutterSeaLordBackstory</defName>
+		<title>Keel Cutter sea lord</title>
+		<titleShort>sea lord</titleShort>
+		<baseDescription>As a rather skilled storm mage, [PAWN_nameDef] commands a rather generous amount of respect. Sadly, [PAWN_pronoun] didn't quite feel respected enough in the Storm Sharks, and decided to set out on [PAWN_possessive] own. [PAWN_nameDef] wound up joining the Keel Cutters, who [PAWN_pronoun] made sure respected [PAWN_objective].</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>0</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_MaormerKeelCutterAdultBackstory_base">
+		<defName>ESCP_Maormer_KeelCutterCaptainBackstory</defName>
+		<title>Keel Cutter captain</title>
+		<titleShort>captain</titleShort>
+		<baseDescription>[PAWN_nameDef] once ruled the Keel Cutters with a lightning clad fist. Under [PAWN_pronoun] command the hauls were glorious, and the bloodshed exquisite. Though eventually [PAWN_nameDef] grew tired of the costant violence, and decided to gaze upon other shores by [PAWN_objective]self.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>50</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>0</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+</Defs>

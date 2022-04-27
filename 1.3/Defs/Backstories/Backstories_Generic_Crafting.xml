@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_TannerBackstory</defName>
+		<title>tanner</title>
+		<titleShort>tanner</titleShort>
+		<baseDescription>[PAWN_nameDef] was rather skilled at tanning hides, and turning leather into apparel. [PAWN_possessive] skills were always in demand, as Maormer seemed to have an aversion to apparel made out of cloth.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_NetMakerBackstory</defName>
+		<title>net maker</title>
+		<titleShort>net maker</titleShort>
+		<baseDescription>Nets were a highly in demand commodity on Pyandonea, and [PAWN_nameDef] took great advantage of it. [PAWN_pronoun] would always spread the many uses of nets to any potential customers, and even managed to gain the eyes of a few high ranking members of a pirate band.</baseDescription>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="ESCP_Maormer_AdultBackstory_base">
+		<defName>ESCP_Maormer_SmithBackstory</defName>
+		<title>smith</title>
+		<titleShort>smith</titleShort>
+		<baseDescription>[PAWN_nameDef] was a rather skilled smith, and had produced many of the weapons used by the Maormeri Navy, and quite a few of the ones used by the various Maormer pirate groups. [PAWN_nameDef] didn't really care who made the orders, as coin is coin.</baseDescription>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+</Defs>
