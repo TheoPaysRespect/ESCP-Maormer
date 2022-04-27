@@ -5,7 +5,7 @@
     <defName>ESCP_MaormerStyle</defName>
     <label>Maormeri</label>
     <iconPath>World/WorldObjects/Expanding/ESCP_MaormerPirate</iconPath>
-	<soundOngoingRitual>Ambient_Wind_Desolate</soundOngoingRitual>
+	<soundOngoingRitual>ESCP_RitualSustainer_Maormeri</soundOngoingRitual>
 	<ritualVisualEffectDef>ESCP_Maormeri</ritualVisualEffectDef>
     <thingDefStyles>
 		  <li>
