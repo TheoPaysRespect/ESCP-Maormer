@@ -26,17 +26,6 @@
 	<structureMemeWeights>
 		  <ESCP_Structure_OriginOrgnumCult MayRequire="Ludeon.RimWorld.Ideology">20</ESCP_Structure_OriginOrgnumCult>
 	</structureMemeWeights>
-    <!-- Don't enable unless there are actually backstories -->
-		<!--
-		<backstoryFilters>
-		  <li>
-			<categories>
-			  <li>ESCP_Maormer_Tribal</li>
-			</categories>
-			<commonality>0.95</commonality>
-		  </li>
-		</backstoryFilters>
-		-->
     <caravanTraderKinds>
     </caravanTraderKinds>
     <visitorTraderKinds>
