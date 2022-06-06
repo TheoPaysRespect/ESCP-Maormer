@@ -4,12 +4,12 @@
   <MeditationFocusDef>
     <defName>ESCP_MaormerSerpent</defName>
     <label>serpentine</label>
-    <incompatibleBackstoriesAny>
+    <requiredBackstoriesAny>
       <li>
         <categoryName>ESCP_MaormerBackstory</categoryName>
         <slot>Childhood</slot>
       </li>
-    </incompatibleBackstoriesAny>
+    </requiredBackstoriesAny>
   </MeditationFocusDef>
 
 </Defs>
