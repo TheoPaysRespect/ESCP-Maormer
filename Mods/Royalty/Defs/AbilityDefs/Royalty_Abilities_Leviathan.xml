@@ -7,7 +7,7 @@
 		<defName>ESCP_MaormerInvisibility</defName>
 		<label>leviathan adaptive skin</label>
 		<description>Active special organs in the skin, causing pigmentation to match the environment, effectively rendering the pawn invisible for 30 seconds.</description>
-		<abilityClass>VFECore.Abilities.Ability_HediffDuration</abilityClass>
+		<abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
 		<targetMode>Self</targetMode>
 		<iconPath>UI/Abilities/ESCP_MaormerChameleonScales</iconPath>
 		<cooldownTime>28800</cooldownTime>
