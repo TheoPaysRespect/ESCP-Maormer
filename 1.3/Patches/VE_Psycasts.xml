@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Psycasts Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/MeditationFocusDef[defName="ESCP_MaormerSerpent"]</xpath>
+					<value>
+						<li Class="VanillaPsycastsExpanded.MeditationFocusExtension">
+							<icon>World/WorldObjects/Expanding/ESCP_MaormerSettlement</icon>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
