@@ -6,3 +6,5 @@ Hurricane
 Abyss
 Tempest
 Sea
+Gale
+Cyclone

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Thanks to Julian Skies on Discord -->
+<Patch>
+	<!-- ==========[Checking artistic meditation type]========== -->
+	<Operation Class="PatchOperationSequence">
+		<!-- Must use <success>Always</success> because of the PatchOperationTest -->
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/MeditationFocusDef[defName="Artistic"]/incompatibleBackstoriesAny</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/MeditationFocusDef[defName="Artistic"]</xpath>
+				<value>
+					<incompatibleBackstoriesAny/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<!-- ==========[Disabling artistic meditation type for specific categories]========== -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/MeditationFocusDef[defName="Artistic"]/incompatibleBackstoriesAny</xpath>
+		<value>
+			<li>
+				<categoryName>ESCP_MaormerBackstory_Childhood</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_MaormerAshlanderBackstory_Childhood</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<!-- Biotech Maormer childhoods -->
+			<li>
+				<categoryName>ESCP_MaormerBiotechBackstory_Newborn</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_MaormerBiotechBackstory_Child</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_MaormerBiotechBackstory_Adult</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_MaormerBiotechBackstory_VatGrown</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<!-- Biotech MaormerLeviathan childhoods -->
+			<li>
+				<categoryName>ESCP_MaormerLeviathanBiotechBackstory_Newborn</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_MaormerLeviathanBiotechBackstory_Child</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_MaormerLeviathanBiotechBackstory_Adult</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_MaormerLeviathanBiotechBackstory_VatGrown</categoryName>
+				<slot>Childhood</slot>
+			</li>
+		</value>
+	</Operation>
+</Patch>

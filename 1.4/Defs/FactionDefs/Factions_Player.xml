@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ========== [ESCP_PlayerFactionBase_Industrial] ========== -->
+	<FactionDef ParentName="ESCP_PlayerFactionBase_Industrial">
+		<defName>ESCP_MaormerPlayerFaction_Industrial</defName>
+		<label>New Maormer Arrivals</label>
+		<basicMemberKind>ESCP_MaormerPlayerPawnKind_Outlander</basicMemberKind>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_MaormerSettlement</factionIconPath>
+		<allowedCultures>
+			<li>ESCP_MaormerCulture</li>
+		</allowedCultures>
+		<startingResearchTags>
+			<li>ESCP_MaormerStart_Industrial</li>
+		</startingResearchTags>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.FactionProperties">
+				<factionTags>
+					<li>ESCP_MaormerFaction</li>
+					<li>ESCP_MaormerFactionPlayer</li>
+				</factionTags>
+			</li>
+		</modExtensions>
+	</FactionDef>
+	<!-- ========== [ESCP_MaormerPlayerFaction_Medieval] ========== -->
+	<FactionDef ParentName="ESCP_PlayerFactionBase_Medieval">
+		<defName>ESCP_MaormerPlayerFaction_Medieval</defName>
+		<label>New Maormer Kingdom</label>
+		<basicMemberKind>ESCP_MaormerPlayerPawnKind_Medieval</basicMemberKind>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_MaormerSettlement</factionIconPath>
+		<allowedCultures>
+			<li>ESCP_MaormerCulture</li>
+		</allowedCultures>
+		<startingResearchTags>
+			<li>ESCP_MaormerStart_Medieval</li>
+		</startingResearchTags>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.FactionProperties">
+				<factionTags>
+					<li>ESCP_MaormerFaction</li>
+					<li>ESCP_MaormerFactionPlayer</li>
+				</factionTags>
+			</li>
+		</modExtensions>
+	</FactionDef>
+	<!-- ========== [ESCP_MaormerPlayerFactionBase_Tribal] ========== -->
+	<FactionDef ParentName="ESCP_PlayerFactionBase_Tribal">
+		<defName>ESCP_MaormerPlayerFaction_Tribal</defName>
+		<label>New Maormer Tribe</label>
+		<basicMemberKind>ESCP_MaormerPlayerPawnKind_Tribal</basicMemberKind>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_MaormerSettlement</factionIconPath>
+		<allowedCultures>
+			<li>ESCP_MaormerCulture</li>
+		</allowedCultures>
+		<startingResearchTags>
+			<li>ESCP_MaormerStart_Tribal</li>
+		</startingResearchTags>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.FactionProperties">
+				<factionTags>
+					<li>ESCP_MaormerFaction</li>
+					<li>ESCP_MaormerFactionPlayer</li>
+				</factionTags>
+			</li>
+		</modExtensions>
+	</FactionDef>
+</Defs>

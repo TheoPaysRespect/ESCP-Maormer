@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_ShootingA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_ShootingA</defName>
+		<title>hunter</title>
+		<titleShort>hunter</titleShort>
+		<baseDesc>[PAWN_nameDef] always enjoyed the calm of going out into the wilderness, and tracking one of the beasts found there. Pyandonea was home to some strange creatures, and while [PAWN_nameDef] was never scared, the thought of encountering a lizard bull did make [PAWN_objective] nervous.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>ESCP_MaormerBackstory_AdulthoodHunter</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

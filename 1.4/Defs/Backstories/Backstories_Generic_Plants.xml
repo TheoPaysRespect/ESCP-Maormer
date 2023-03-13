@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_PlantsA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_PlantsA</defName>
+		<title>kelp farmer</title>
+		<titleShort>farmer</titleShort>
+		<baseDesc>[PAWN_nameDef] was in charge of one of the many kelp forests surrounding Pyandonea. Kelp was pretty easy to grow, and [PAWN_nameDef] didn't really need to do anything except keep an eye on it. However, harvesting it was an entirely different matter.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>ESCP_MaormerBackstory_AdulthoodFarmer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_PlantsB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_PlantsB</defName>
+		<title>coral grower</title>
+		<titleShort>grower</titleShort>
+		<baseDesc>[PAWN_nameDef] grew for exotic species of coral for a living. There were so many different colours, and shapes, and [PAWN_nameDef] cared for each one equally.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>ESCP_MaormerBackstory_AdulthoodFarmer</li>
+		</spawnCategories>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_PlantsC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_PlantsC</defName>
+		<title>outpost lumberer</title>
+		<titleShort>lumberer</titleShort>
+		<baseDesc>Good quality wood was somewhat in demand in Pyandonea, and one of the closest places to get it just happened to be Valenwood. So [PAWN_nameDef], and many others, set up logging outposts in Valenwood. quite the risky decision, as Bosmer are quite fond of their trees. Unsurprisingly, [PAWN_possessive] time there didn't last very long, as they were quickly driven back to Pyandonea by the Bosmer.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+		<spawnCategories>
+			<li>ESCP_MaormerBackstory_AdulthoodLogger</li>
+		</spawnCategories>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_PlantsD]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_PlantsE</defName>
+		<title>alchemist</title>
+		<titleShort>alchemist</titleShort>
+		<baseDesc>[PAWN_nameDef] had extensive knowledge of the plants that grow on Pyandonea, and their alchemical uses. While this knowledge could have been used for certain nefarious purposes, [PAWN_nameDef] was mostly interested in providing aid wherever possible.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<maleCommonality>80</maleCommonality>
+		<femaleCommonality>80</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_PlantsF]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_PlantsF</defName>
+		<title>Thrassian coral cultivator</title>
+		<titleShort>cultivator</titleShort>
+		<baseDesc>[PAWN_nameDef] managed to obtain a truly rare species of coral, one that could only be found on the Thrassian Archipelago. [PAWN_nameDef] treasured that little coral, as if it were [PAWN_possessive] own child. But it never managed to grow very large, likely because it longed for its homeland.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

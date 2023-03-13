@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_IntellectualA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_IntellectualA</defName>
+		<title>spy</title>
+		<titleShort>spy</titleShort>
+		<baseDesc>As a both a spy and a Maormer, [PAWN_nameDef] couldn't just rely on words to achieve [PAWN_possessive] goals. [PAWN_pronoun] had to rely almost solely on [PAWN_possessive] wits, and what fine wits they were.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>8</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Mining</li>
+		</workDisables>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

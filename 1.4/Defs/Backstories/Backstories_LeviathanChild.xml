@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_MaormerLeviathanBackstory_ChildhoodA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerLeviathan_ChildhoodBase">
+		<defName>ESCP_MaormerLeviathanBackstory_ChildhoodA</defName>
+		<title>leviathan</title>
+		<titleShort>leviathan</titleShort>
+		<baseDesc>[PAWN_nameDef] was born slightly different to most, even by child standards [PAWN_pronoun] struggled to walk, and was far more at home in the water. Turns out [PAWN_nameDef] was born a Leviathan, which became incredibly obvious as [PAWN_pronoun] grew larger, far larger than any child should be. Also [PAWN_possessive] jaw distending when eating may have helped [PAWN_possessive] parents come to that conclusion.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerLeviathanBackstory_ChildhoodB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerLeviathan_ChildhoodBase">
+		<defName>ESCP_MaormerLeviathanBackstory_ChildhoodB</defName>
+		<title>avatar of Satakal</title>
+		<titleShort>avatar</titleShort>
+		<baseDesc>When [PAWN_nameDef] was born, it was apparent [PAWN_pronoun] was different. [PAWN_possessive] village believed [PAWN_pronoun] was an avatar of Satakal, and worshipped [PAWN_nameDef] as if [PAWN_pronoun] was a god. This was swiftly put to an end after Orgnum's Royal Guard visited [PAWN_possessive] village.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>PlantWork</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerLeviathanBackstory_ChildhoodC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerLeviathan_ChildhoodBase">
+		<defName>ESCP_MaormerLeviathanBackstory_ChildhoodC</defName>
+		<title>sea demon</title>
+		<titleShort>demon</titleShort>
+		<baseDesc>When [PAWN_nameDef] was born, it was apparent [PAWN_pronoun] was different. [PAWN_nameDef] managed to escape from [PAWN_possessive] outpost when the Colovian armies began their attack. Forced to live in the wilds, [PAWN_nameDef] relied on pure animalistic instinct to survive. The inhabitants of nearby fishing villages thought [PAWN_pronoun] was a sea demon, and multiple times attempted to capture [PAWN_possessive].</baseDesc>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Firefighting</li>
+			<li>Social</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerLeviathanBackstory_ChildhoodD]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerLeviathan_ChildhoodBase">
+		<defName>ESCP_MaormerLeviathanBackstory_ChildhoodD</defName>
+		<title>snakeskin child</title>
+		<titleShort>snakeskin</titleShort>
+		<baseDesc>Thanks to being born as a Leviathan, the Storm Sharks took great interest in [PAWN_nameDef]. They began 'training' [PAWN_objective] as soon as [PAWN_pronoun] was able to walk. This took a great toll on [PAWN_nameDef], causing [PAWN_objective] to regress into an animalistic beast.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+			<li>ManualSkilled</li>
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerLeviathanBackstory_ChildhoodE]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerLeviathan_ChildhoodBase">
+		<defName>ESCP_MaormerLeviathanBackstory_ChildhoodE</defName>
+		<title>abandoned child</title>
+		<titleShort>abandoned</titleShort>
+		<baseDesc>Born during an unfortunate time, [PAWN_nameDef] was quickly left to fend for [PAWN_objective]self. Luckily for [PAWN_nameDef], [PAWN_pronoun] was born as a Leviathan, and as such was fully capable of surviving the wilds.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerLeviathanBackstory_ChildhoodF]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerLeviathan_ChildhoodBase">
+		<defName>ESCP_MaormerLeviathanBackstory_ChildhoodF</defName>
+		<title>serpent child</title>
+		<titleShort>serpent</titleShort>
+		<baseDesc>[PAWN_nameDef] heard a calling from the wilds one day, and decided to wander off in search of it. Completely lost, [PAWN_pronoun] eventually came across an ancient sea serpent, who took [PAWN_objective] in as if [PAWN_pronoun] were its own child. If [PAWN_nameDef] wasn't a Leviathan, [PAWN_pronoun] may not have been so lucky.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Animals</key>
+				<value>8</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+			<li>ManualSkilled</li>
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

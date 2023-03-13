@@ -3,5 +3,4 @@ Leviathan
 Snake
 Wyrm
 Viper
-Shark
 Eel

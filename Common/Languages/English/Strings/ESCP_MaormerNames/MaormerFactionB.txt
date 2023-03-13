@@ -5,3 +5,8 @@ Ancient
 Colossal
 Volatile
 Abyssal
+Dread
+Primal
+Primordial
+Ravenous
+Voltaic

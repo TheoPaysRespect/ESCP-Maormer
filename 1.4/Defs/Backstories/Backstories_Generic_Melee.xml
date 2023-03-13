@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_MeleeA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_MeleeA</defName>
+		<title>assassin</title>
+		<titleShort>assassin</titleShort>
+		<baseDesc>Sometimes all that was needed was a silent blade, that was when someone like [PAWN_nameDef] was called into action. [PAWN_nameDef] would silently climb the side of a ship, sneak into the targets quarters, and then vanish, back into the depths. No one on board any the wiser that that a crew member was no longer with them.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Nimble</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_MeleeB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_MeleeB</defName>
+		<title>commander</title>
+		<titleShort>commander</titleShort>
+		<baseDesc>As somewhat of a veteran, [PAWN_nameDef] had the privilege of commanding new recruits, ensuring they survive their first attempted invasion of Summerset, or at least returned in one piece.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Caring</li>
+			<li>ManualDumb</li>
+		</workDisables>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>70</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_MeleeC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_MeleeC</defName>
+		<title>serpent knight</title>
+		<titleShort>knight</titleShort>
+		<baseDesc>[PAWN_nameDef] was one of the famed serpent knights, highly skilled warriors that rode sea serpents into battle, with a little help from a nearby snake mage of course. Alas [PAWN_possessive] fighting days have been over for a while, as [PAWN_possessive] beloved serpent steed is sadly no more.</baseDesc>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

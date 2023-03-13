@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_SpecialA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_SpecialA</defName>
+		<title>Orgnum's royal guard</title>
+		<titleShort>royal guard</titleShort>
+		<baseDesc>[PAWN_nameDef] was once one of the elite, one of King Orgnum's personal royal guard. Skilled with both blade and magic, and with an affinity towards the sea serpents, [PAWN_nameDef] was a truly frightening sight on the battlefield.</baseDesc>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>2</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_SpecialB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_SpecialB</defName>
+		<title>wereshark hunter</title>
+		<titleShort>hunter</titleShort>
+		<baseDesc>There were many vile creatures found on Pyandonea, but none more vile than the wereshark. No one knows why, but [PAWN_nameDef] has dedicated [PAWN_possessive] life to exterminating them, no matter the cost.</baseDesc>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_SpecialC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_SpecialC</defName>
+		<title>sea serpent hunter</title>
+		<titleShort>hunter</titleShort>
+		<baseDesc>[PAWN_nameDef] made quite a name for [PAWN_objective]self, though not entirely for the right reasons. [PAWN_pronoun] was a hunter, and lived for the feeling of blood washing over [PAWN_objective]. Eventually though, [PAWN_pronoun] grew tired of the regular foes, and sought out something far more dangerous, and somewhat heretical.\n\n[PAWN_nameDef] began hunting sea serpents. This obviously didn't go over well with most other Maormer. But [PAWN_pronoun] kept going, slaying every single one [PAWN_pronoun] came across, at least until Orgnum's Dragon Kights put a stop to it.</baseDesc>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedHediffs>
+			<li>ESCP_ViolentMeditationHediff</li>
+		</forcedHediffs>
+		<workDisables>
+			<li>Animals</li>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_SpecialD]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_SpecialD</defName>
+		<title>crab researcher</title>
+		<titleShort>researcher</titleShort>
+		<baseDesc>One dark and stormy night, [PAWN_nameDef] witnessed something truly unusual. A creature like no other, a bipedal crab, walking on land. The creature approached [PAWN_objective] slowly, and cautiously, all the while making a guttural gurgling sound.\n\nThen, as a bolt of lightning struck, it disappeared, leaving behind a strange pearl like object.\n\nSadly [PAWN_nameDef] almost immediately lost the pearl, but still likes ponder the wondrous secrets it may have held.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Animals</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

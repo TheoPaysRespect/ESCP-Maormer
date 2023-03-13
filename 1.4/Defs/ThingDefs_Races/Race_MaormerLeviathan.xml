@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_Maormer">
+		<defName>ESCP_MaormerLeviathanRace</defName>
+		<label>Maormer Leviathan</label>
+		<description>An elven race who, in poor lighting, might be mistaken for Altmer. Originally from Aldmeris, the Maormer launched a rebellion, and were summarily banished to Pyandonea. Since their banishment they have taken on some rather different characteristics.\n\nOver time the skin of Maormer has lost the golden lustre typical of the Aldmer, instead replaced by various pale shades of white and blue. Maormer eyes are typically either pale blue, or completely devoid of colour. And almost all Maormer absolutely despise the Altmer.\n\nVery rarely a Maormer is born a leviathan, which many other races consider to be the progeny of a Maormer and sea serpent. Leviathans are far more dangerous than any regular Maormer, though also far more animalistic.\n\n&lt;color=#E5E54C&gt;Mer Blood&lt;/color&gt;\nPsychic sensitivity is increased by 20%\nFertility is decreased by 50%.\nBase health scale is decreased by 20%\nLife expectancy is increased to 300 years.\n\n&lt;color=#E5E54C&gt;Raiders of Summerset&lt;/color&gt;\nMaximum comfortable temperature increased by 4°C (39.2°F).\nToxic resistance increased by 25%.\nImmunity gain speed is increased by 25%.\nInjury healing factor is increased by 10%.\nSocial impact is decreased by 20%.\nSwim speed is increased to 4 tiles per second.\n\n&lt;color=#E5E54C&gt;Leviathan&lt;/color&gt;\nBase health scale is increased to 120%.\nBody size is increased by 40%.\nFlammability is increased by 20%.\nEating speed is increased by 50%.\nMental break threshold is increased by 15%.\nToxic resistance is increased by an additional 25%.\nInjury healing factor is increased by an additional 15%.\nSocial impact is decreased by an additional 20%.\nMovespeed is decreased by 1 tile per second.\nSwim speed is increased by an additional 2 tiles per second.\nResistant to food poisoning.\nFar stronger melee damage, but unwilling to hold back in social fights.</description>
+		<descriptionHyperlinks>
+			<GeneDef MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Mer</GeneDef>
+			<GeneDef MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_MaormerLeviathan</GeneDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.RaceProperties">
+				<foodPoisoningResistant>true</foodPoisoningResistant>
+				<majorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Mer</majorRacialGeneToInherit>
+				<minorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_MaormerLeviathan</minorRacialGeneToInherit>
+			</li>
+		</modExtensions>
+		<statBases>
+			<EatingSpeed>1.5</EatingSpeed>
+			<MoveSpeed>3.6</MoveSpeed>
+			<ComfyTemperatureMax>30</ComfyTemperatureMax>
+			<ToxicResistance>0.50</ToxicResistance>
+			<ImmunityGainSpeed>1.25</ImmunityGainSpeed>
+			<InjuryHealingFactor>1.25</InjuryHealingFactor>
+			<SocialImpact>0.6</SocialImpact>
+			<MentalBreakThreshold>0.15</MentalBreakThreshold>
+			<Flammability>1.2</Flammability>
+			<SwimSpeed MayRequireAnyOf="pyrce.swimming.modkit,BiomesTeam.BiomesIslands">6</SwimSpeed>
+		</statBases>
+		<tools Inherit="False">
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16.2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16.2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>14.2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.07</chanceFactor>
+				<soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+				<soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<baseBodySize>1.4</baseBodySize>
+			<baseHealthScale>1.2</baseHealthScale>
+		</race>
+		<alienRace>
+			<generalSettings>
+				<notXenophobistTowards>
+					<li>ESCP_MaormerRace</li>
+				</notXenophobistTowards>
+				<alienPartGenerator>
+					<bodyTypes Inherit="False">
+						<li>Hulk</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+					</bodyTypes>
+					<headTypes Inherit="False">
+						<li>ESCP_HeadMerScaledColouredEyes_Female_Average_Normal</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Female_Average_Pointy</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Female_Average_Wide</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Female_Narrow_Normal</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Female_Narrow_Pointy</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Female_Narrow_Wide</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Male_Average_Normal</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Male_Average_Pointy</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Male_Average_Wide</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Male_Narrow_Normal</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Male_Narrow_Pointy</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Male_Narrow_Wide</li>
+					</headTypes>
+					<bodyAddons Inherit="False">
+						<!-- ========== [Ear right] ========== -->
+						<li>
+							<path>Things/Pawn/Humanlike/ESCP_Maormer/Ear/RightEar</path>
+							<colorChannel>skin</colorChannel>
+							<bodyPart>Ear</bodyPart>
+							<bodyPartLabel>right ear</bodyPartLabel>
+							<drawnInBed>true</drawnInBed>
+							<inFrontOfBody>false</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawnDesiccated>false</drawnDesiccated>
+							<hiddenUnderApparelFor>
+								<li>FullHead</li>
+								<li>UpperHead</li>
+							</hiddenUnderApparelFor>
+							<offsets>
+								<north>
+									<layerOffset>-0.28</layerOffset>
+								</north>
+								<east>
+									<layerOffset>-0.332</layerOffset>
+								</east>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+							</offsets>
+							<debug>false</debug>
+						</li>
+						<!-- ========== [Ear left] ========== -->
+						<li>
+							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+							<path>Things/Pawn/Humanlike/ESCP_Maormer/Ear/LeftEar</path>
+							<colorChannel>skin</colorChannel>
+							<bodyPart>Ear</bodyPart>
+							<bodyPartLabel>left ear</bodyPartLabel>
+							<drawnInBed>true</drawnInBed>
+							<inFrontOfBody>false</inFrontOfBody>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<drawnDesiccated>false</drawnDesiccated>
+							<hiddenUnderApparelFor>
+								<li>FullHead</li>
+								<li>UpperHead</li>
+							</hiddenUnderApparelFor>
+							<offsets>
+								<north>
+									<layerOffset>-0.28</layerOffset>
+								</north>
+								<east>
+									<layerOffset>-0.332</layerOffset>
+								</east>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
+							</offsets>
+							<debug>false</debug>
+						</li>
+					</bodyAddons>
+					<customDrawSize>(1.2, 1.2)</customDrawSize>
+					<customHeadDrawSize>(1.1, 1.1)</customHeadDrawSize>
+					<!--<headOffset>(0.0, 0.05)</headOffset>-->
+				</alienPartGenerator>
+				<!-- =====[Biotech backstory bullshit]===== -->
+				<newbornBackstoryFilter>
+					<li>
+						<categories>
+							<li>ESCP_MaormerLeviathanBiotechBackstory_Newborn</li>
+						</categories>
+						<commonality>1</commonality>
+					</li>
+				</newbornBackstoryFilter>
+				<childBackstoryFilter>
+					<li>
+						<categories>
+							<li>ESCP_MaormerLeviathanBiotechBackstory_Child</li>
+						</categories>
+						<commonality>1</commonality>
+					</li>
+				</childBackstoryFilter>
+				<adultBackstoryFilter>
+					<li>
+						<categories>
+							<li>ESCP_MaormerLeviathanBiotechBackstory_Adult</li>
+						</categories>
+						<commonality>1</commonality>
+					</li>
+				</adultBackstoryFilter>
+				<adultVatBackstoryFilter>
+					<li>
+						<categories>
+							<li>ESCP_MaormerLeviathanBiotechBackstory_VatGrown</li>
+						</categories>
+						<commonality>1</commonality>
+					</li>
+				</adultVatBackstoryFilter>
+			</generalSettings>
+			<graphicPaths>
+				<body>Things/Pawn/Humanlike/ESCP_ScaledBody/Body/</body>
+			</graphicPaths>
+			<raceRestriction>
+				<blackGeneTags>
+					<li>Body</li>
+				</blackGeneTags>
+				<blackEndoCategories>
+					<li MayRequire="Ludeon.RimWorld.Biotech">BodyType</li>
+				</blackEndoCategories>
+			</raceRestriction>
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
+		</alienRace>
+	</AlienRace.ThingDef_AlienRace>
+</Defs>

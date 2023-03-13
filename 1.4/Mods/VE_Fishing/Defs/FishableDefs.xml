@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VCE_Fishing.FishDef>
+		<defName>ESCP_EggReefViperFertilizedFishable</defName>
+		<thingDef>ESCP_Egg_ReefViperFertilized</thingDef>
+		<fishSizeCategory>Special</fishSizeCategory>
+		<canBeFreshwater>false</canBeFreshwater>
+		<canBeSaltwater>true</canBeSaltwater>
+		<allowedBiomes>
+			<li>Warm</li>
+			<li MayRequire="SirMashedPotato.MorrowRim">Ashlands</li>
+		</allowedBiomes>
+		<commonality>0.25</commonality>
+		<baseFishingYield>3</baseFishingYield>
+	</VCE_Fishing.FishDef>
+</Defs>

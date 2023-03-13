@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_StuffKnowledgeOrgnium]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_StuffKnowledgeOrgnium</defName>
+		<title>master orgnium smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDesc>Starting from a young age, [PAWN_nameDef] has apprenticed under some of the best smiths found on Pyandonea. Quickly surpassing [PAWN_possessive] mentors, [PAWN_nameDef] was tasked by King Orgnum himself to craft a new set of armour, an honour most never dreamed of. It's said the armour was strong enough to withstand the full might of a serpent's jaws, not that King Orgnum ever needed to worry about that.</baseDesc>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>ManualDumb</li>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_StuffKnowledgeBoyantSteel]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_StuffKnowledgeBoyantSteel</defName>
+		<title>master buoyant steel smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDesc>Always obsessed with what lies beneath the waves, one day [PAWN_nameDef] learnt of buoyant steel, a strange magical alloy, far lighter than it had any right to be. Ever since then [PAWN_pronoun] has worked towards becoming a master at working buoyant steel. This proved to be difficult, as buoyant steel is not easy to come by, but eventually [PAWN_nameDef] got there, crafting a cuirass that rivalled ebony in quality.</baseDesc>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>Caring</li>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_StuffKnowledgeMoonstone]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_StuffKnowledgeMoonstone</defName>
+		<title>master moonstone smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDesc>One of [PAWN_nameDef]'s ancestors was a rather skilled moonstone smith, back when the Maormer were still Aldmer. Though some has been lost to time, this knowledge has been passed down the generations, eventually being passed to [PAWN_nameDef].</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>PlantWork</li>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!--
+		
+		Master water salts
+		Master void salts
+		Master air salts
+
+	-->
+</Defs>

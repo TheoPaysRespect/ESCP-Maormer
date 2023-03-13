@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ========== [ESCP_ReefViper] ========== -->
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>ESCP_ReefViper</defName>
+		<label>reef viper</label>
+		<description>A large winged serpent, native to remote tropical islands. Selectively bred by the Maormer for use as attack animals, this 'domesticated' breed is both larger, and more aggressive, than their wild counterparts. Invasive populations have formed over time, likely the remnants of Maormer raids.\n\nTheir wings are not strong enough for sustained flight, but can be used to great advantage when leaping out of the ocean.\n\n&lt;color=#E5E54C&gt;Serpentine Connection&lt;/color&gt;\nTame reef vipers periodically releases a pulse of psychic energy, replenishing a small amount of psyfocus for anyone nearby. This only affects pawns that can use the Serpentine meditation type.</description>
+		<statBases>
+			<MoveSpeed>4.8</MoveSpeed>
+			<MarketValue>300</MarketValue>
+			<ComfyTemperatureMin>1</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<SwimSpeed MayRequireAnyOf="pyrce.swimming.modkit,BiomesTeam.BiomesIslands">6</SwimSpeed>
+		</statBases>
+		<uiIconScale>1.0</uiIconScale>
+		<tools>
+			<li>
+				<label>venom-fangs</label>
+				<capacities>
+					<li>ToxicBite</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>ESCP_Egg_ReefViperFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>15</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~3</eggCountRange>
+			</li>
+			<li Class="ESCP_RaceTools.CompProperties_MeditationPulse" MayRequire="Ludeon.RimWorld.Royalty">
+				<focusDef>ESCP_MaormerSerpentMeditation</focusDef>
+				<amount>0.01</amount>
+				<ticksBetween>900</ticksBetween>
+				<radius>3</radius>
+				<fleck>PsycastAreaEffect</fleck>
+			</li>
+		</comps>
+		<race>
+			<body>Snake</body>
+			<!-- TODO -->
+			<predator>true</predator>
+			<maxPreyBodySize>1.2</maxPreyBodySize>
+			<baseBodySize>0.7</baseBodySize>
+			<baseHungerRate>0.15</baseHungerRate>
+			<baseHealthScale>0.8</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Lizard</leatherDef>
+			<wildness>0.9</wildness>
+			<petness>0.01</petness>
+			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.75</manhunterOnDamageChance>
+			<wildBiomes>
+				<TemperateForest>0.05</TemperateForest>
+				<TemperateSwamp>0.05</TemperateSwamp>
+				<TropicalRainforest>0.07</TropicalRainforest>
+				<TropicalSwamp>0.07</TropicalSwamp>
+				<!-- MorrowRim -->
+				<MorrowRim_Ashlands MayRequire="SirMashedPotato.MorrowRim">0.05</MorrowRim_Ashlands>
+				<MorrowRim_AshSwamp MayRequire="SirMashedPotato.MorrowRim.AshSwamp">0.07</MorrowRim_AshSwamp>
+				<!-- Biomes! -->
+				<BiomesIslands_TemperateIsland MayRequire="BiomesTeam.BiomesIslands">0.05</BiomesIslands_TemperateIsland>
+				<BiomesIslands_TemperateArchipelago MayRequire="BiomesTeam.BiomesIslands">0.05</BiomesIslands_TemperateArchipelago>
+				<BiomesIslands_TropicalIsland MayRequire="BiomesTeam.BiomesIslands">0.05</BiomesIslands_TropicalIsland>
+				<BiomesIslands_TropicalArchipelago MayRequire="BiomesTeam.BiomesIslands">0.07</BiomesIslands_TropicalArchipelago>
+				<!-- More Vanilla Biomes -->
+				<ZBiome_Marsh MayRequire="zylle.MoreVanillaBiomes">0.07</ZBiome_Marsh>
+				<ZBiome_CoastalDunes MayRequire="zylle.MoreVanillaBiomes">0.07</ZBiome_CoastalDunes>
+				<!-- Advanced Biomes -->
+				<Wetland MayRequire="Mlie.AdvancedBiomes">0.07</Wetland>
+			</wildBiomes>
+			<nameOnTameChance>1</nameOnTameChance>
+			<lifeExpectancy>40</lifeExpectancy>
+			<lifeStageAges>
+				<!-- TODO ancient lifestage -->
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+			<li>AnimalFighter</li>
+			<li>ESCP_AnimalMaormer</li>
+		</tradeTags>
+	</ThingDef>
+	<!-- ========== [ESCP_ReefViperKind] ========== -->
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>ESCP_ReefViperKind</defName>
+		<label>reef viper</label>
+		<race>ESCP_ReefViper</race>
+		<combatPower>95</combatPower>
+		<ecoSystemWeight>0.25</ecoSystemWeight>
+		<wildGroupSize>1~3</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/ESCP_ReefViper/ESCP_ReefViper_Female</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/ESCP_ReefViper/ESCP_ReefViper_Female</texPath>
+					<drawSize>1.05</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>1.05</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/ESCP_ReefViper/ESCP_ReefViper_Male</texPath>
+					<drawSize>1.3</drawSize>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/ESCP_ReefViper/ESCP_ReefViper_Female</texPath>
+					<drawSize>1.6</drawSize>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>1.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+</Defs>
