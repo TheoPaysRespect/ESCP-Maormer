@@ -11,6 +11,7 @@
 			<ComfyTemperatureMin>1</ComfyTemperatureMin>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
 			<SwimSpeed MayRequireAnyOf="pyrce.swimming.modkit,BiomesTeam.BiomesIslands">6</SwimSpeed>
+			<MorrowRim_AshResistance MayRequire="SirMashedPotato.MorrowRimRemade">0.8</MorrowRim_AshResistance>
 		</statBases>
 		<uiIconScale>1.0</uiIconScale>
 		<tools>
@@ -61,7 +62,6 @@
 		</comps>
 		<race>
 			<body>Snake</body>
-			<!-- TODO -->
 			<predator>true</predator>
 			<maxPreyBodySize>1.2</maxPreyBodySize>
 			<baseBodySize>0.7</baseBodySize>

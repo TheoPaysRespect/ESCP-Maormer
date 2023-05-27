@@ -28,7 +28,7 @@
 				<category>Rustic</category>
 				<priority>1</priority>
 			</li>
-			<li MayRequire="VanillaExpanded.VMemesE">
+			<li MayRequire="Sarg.AlphaMemes">
 				<category>AM_Corsair</category>
 				<priority>1</priority>
 			</li>
