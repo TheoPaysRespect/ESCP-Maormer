@@ -33,7 +33,7 @@
 		</backstoryFiltersOverride>
 	</PawnKindDef>
 	<!-- ==========[ESCP_Maormer_Tribal_Penitent]========== -->
-	<PawnKindDef ParentName="ESCP_Maormer_TribalBase" Name="TribalPenitentBase">
+	<PawnKindDef ParentName="ESCP_Maormer_TribalBase">
 		<defName>ESCP_Maormer_Tribal_Penitent</defName>
 		<label>penitent</label>
 		<combatPower>40</combatPower>
@@ -55,7 +55,7 @@
 		<initialResistanceRange>10~17</initialResistanceRange>
 	</PawnKindDef>
 	<!-- ==========[ESCP_Maormer_Tribal_Archer]========== -->
-	<PawnKindDef ParentName="ESCP_Maormer_TribalBase" Name="TribalArcherBase">
+	<PawnKindDef ParentName="ESCP_Maormer_TribalBase">
 		<defName>ESCP_Maormer_Tribal_Archer</defName>
 		<label>archer</label>
 		<combatPower>45</combatPower>
