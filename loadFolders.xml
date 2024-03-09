@@ -9,6 +9,7 @@
 		<li IfModActive="vanillaexpanded.achievements">1.4/Mods/VE_Achievements</li>	
 		<li IfModActive="VanillaExpanded.VPsycastsE">1.4/Mods/VE_Psycasts</li>	
 		<li IfModActive="VanillaExpanded.VCEF">1.4/Mods/VE_Fishing</li>	
+		<li IfModActive="pathfinding.framework">1.4/Mods/Pathfinding_Framework</li>	
 		<li IfModActive="SirMashedPotato.ESCP.IndustrialFactionsDummy">1.4/Mods/IndustrialFactions</li>	
 	</v1.4>
 </loadFolders>
