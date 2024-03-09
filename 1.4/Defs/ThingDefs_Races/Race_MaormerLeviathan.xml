@@ -14,6 +14,9 @@
 				<majorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Mer</majorRacialGeneToInherit>
 				<minorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_MaormerLeviathan</minorRacialGeneToInherit>
 			</li>
+			<li Class="PathfindingFramework.MovementExtension" MayRequire="pathfinding.framework">
+				<movementDef>ESCP_PF_Movement_Leviathan</movementDef>
+			</li>
 		</modExtensions>
 		<statBases>
 			<EatingSpeed>1.5</EatingSpeed>
@@ -25,7 +28,7 @@
 			<SocialImpact>0.6</SocialImpact>
 			<MentalBreakThreshold>0.15</MentalBreakThreshold>
 			<Flammability>1.2</Flammability>
-			<SwimSpeed MayRequireAnyOf="pyrce.swimming.modkit,BiomesTeam.BiomesIslands">6</SwimSpeed>
+			<SwimSpeed MayRequireAnyOf="pyrce.swimming.modkit">6</SwimSpeed>
 		</statBases>
 		<tools Inherit="False">
 			<li>

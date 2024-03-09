@@ -36,6 +36,47 @@
 				</li>
 			</alienrefugeekinds>
 			<startingColonists>
+				<!-- Leviathans in Maormer factions -->
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>ESCP_MaormerLeviathanPlayerPawnKind_Outlander</li>
+							</kindDefs>
+							<chance>2.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>ESCP_MaormerPlayerFaction_Industrial</li>
+					</factionDefs>
+				</li>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>ESCP_MaormerLeviathanPlayerPawnKind_Medieval</li>
+							</kindDefs>
+							<chance>2.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>ESCP_MaormerPlayerFaction_Medieval</li>
+					</factionDefs>
+				</li>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>ESCP_MaormerLeviathanPlayerPawnKind_Tribal</li>
+							</kindDefs>
+							<chance>2.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>ESCP_MaormerPlayerFaction_Tribal</li>
+					</factionDefs>
+				</li>
+				<!-- Core factions -->
 				<li>
 					<pawnKindEntries>
 						<li>

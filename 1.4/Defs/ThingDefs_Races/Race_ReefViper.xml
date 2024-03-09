@@ -5,12 +5,17 @@
 		<defName>ESCP_ReefViper</defName>
 		<label>reef viper</label>
 		<description>A large winged serpent, native to remote tropical islands. Selectively bred by the Maormer for use as attack animals, this 'domesticated' breed is both larger, and more aggressive, than their wild counterparts. Invasive populations have formed over time, likely the remnants of Maormer raids.\n\nTheir wings are not strong enough for sustained flight, but can be used to great advantage when leaping out of the ocean.\n\n&lt;color=#E5E54C&gt;Serpentine Connection&lt;/color&gt;\nTame reef vipers periodically releases a pulse of psychic energy, replenishing a small amount of psyfocus for anyone nearby. This only affects pawns that can use the Serpentine meditation type.</description>
+		<modExtensions>
+			<li Class="PathfindingFramework.MovementExtension" MayRequire="pathfinding.framework">
+				<movementDef>PF_Movement_Amphibious</movementDef>
+			</li>
+		</modExtensions>
 		<statBases>
 			<MoveSpeed>4.8</MoveSpeed>
 			<MarketValue>300</MarketValue>
 			<ComfyTemperatureMin>1</ComfyTemperatureMin>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
-			<SwimSpeed MayRequireAnyOf="pyrce.swimming.modkit,BiomesTeam.BiomesIslands">6</SwimSpeed>
+			<SwimSpeed MayRequireAnyOf="pyrce.swimming.modkit">6</SwimSpeed>
 			<MorrowRim_AshResistance MayRequire="SirMashedPotato.MorrowRimRemade">0.8</MorrowRim_AshResistance>
 		</statBases>
 		<uiIconScale>1.0</uiIconScale>

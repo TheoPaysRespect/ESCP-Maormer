@@ -13,6 +13,9 @@
 				<majorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Mer</majorRacialGeneToInherit>
 				<minorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Maormer</minorRacialGeneToInherit>
 			</li>
+			<li Class="PathfindingFramework.MovementExtension" MayRequire="pathfinding.framework">
+				<movementDef>PF_Movement_Amphibious</movementDef>
+			</li>
 		</modExtensions>
 		<statBases>
 			<ComfyTemperatureMax>30</ComfyTemperatureMax>
@@ -20,7 +23,7 @@
 			<ImmunityGainSpeed>1.25</ImmunityGainSpeed>
 			<InjuryHealingFactor>1.1</InjuryHealingFactor>
 			<SocialImpact>0.8</SocialImpact>
-			<SwimSpeed MayRequireAnyOf="pyrce.swimming.modkit,BiomesTeam.BiomesIslands">4</SwimSpeed>
+			<SwimSpeed MayRequireAnyOf="pyrce.swimming.modkit">4</SwimSpeed>
 		</statBases>
 		<alienRace>
 			<generalSettings>
