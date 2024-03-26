@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_Maormer">
+		<defName>ESCP_MaormerRace</defName>
+		<label>Maormer</label>
+		<description>An elven race who, in poor lighting, might be mistaken for Altmer. Originally from Aldmeris, the Maormer launched a rebellion, and were summarily banished to Pyandonea. Since their banishment they have taken on some rather different characteristics.\n\nOver time the skin of Maormer has lost the golden lustre typical of the Aldmer, instead replaced by various pale shades of white and blue. Maormer eyes are typically either pale blue, or completely devoid of colour. And almost all Maormer absolutely despise the Altmer.\n\nVery rarely a Maormer is born a leviathan, which many other races consider to be the progeny of a Maormer and sea serpent. Leviathans are far more dangerous than any regular Maormer, though also far more animalistic.\n\n&lt;color=#E5E54C&gt;Mer Blood&lt;/color&gt;\nPsychic sensitivity is increased by 20%\nFertility is decreased by 50%.\nBase health scale is decreased by 20%\nLife expectancy is increased to 300 years.\n\n&lt;color=#E5E54C&gt;Raiders of Summerset&lt;/color&gt;\nMaximum comfortable temperature is increased by 4°C (39.2°F).\nToxic resistance is increased by 25%.\nImmunity gain speed is increased by 25%.\nInjury healing factor is increased by 10%.\nSocial impact is decreased by 20%.\nSwim speed is increased.</description>
+		<descriptionHyperlinks>
+			<GeneDef MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Mer</GeneDef>
+			<GeneDef MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Maormer</GeneDef>
+		</descriptionHyperlinks>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.RaceProperties">
+				<majorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Mer</majorRacialGeneToInherit>
+				<minorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Maormer</minorRacialGeneToInherit>
+			</li>
+			<li Class="PathfindingFramework.MovementExtension" MayRequire="pathfinding.framework">
+				<movementDef>PF_Movement_Amphibious</movementDef>
+			</li>
+		</modExtensions>
+		<statBases>
+			<ComfyTemperatureMax>30</ComfyTemperatureMax>
+			<ToxicResistance>0.25</ToxicResistance>
+			<ImmunityGainSpeed>1.25</ImmunityGainSpeed>
+			<InjuryHealingFactor>1.1</InjuryHealingFactor>
+			<SocialImpact>0.8</SocialImpact>
+			<SwimSpeed MayRequireAnyOf="pyrce.swimming.modkit">4</SwimSpeed>
+		</statBases>
+		<alienRace>
+			<generalSettings>
+				<notXenophobistTowards>
+					<li>ESCP_MaormerLeviathanRace</li>
+				</notXenophobistTowards>
+				<!-- =====[Biotech backstory bullshit]===== -->
+				<newbornBackstoryFilter>
+					<li>
+						<categories>
+							<li>ESCP_MaormerBiotechBackstory_Newborn</li>
+						</categories>
+						<commonality>1</commonality>
+					</li>
+				</newbornBackstoryFilter>
+				<childBackstoryFilter>
+					<li>
+						<categories>
+							<li>ESCP_MaormerBiotechBackstory_Child</li>
+						</categories>
+						<commonality>1</commonality>
+					</li>
+				</childBackstoryFilter>
+				<adultBackstoryFilter>
+					<li>
+						<categories>
+							<li>ESCP_MaormerBiotechBackstory_Adult</li>
+						</categories>
+						<commonality>1</commonality>
+					</li>
+				</adultBackstoryFilter>
+				<adultVatBackstoryFilter>
+					<li>
+						<categories>
+							<li>ESCP_MaormerBiotechBackstory_VatGrown</li>
+						</categories>
+						<commonality>1</commonality>
+					</li>
+				</adultVatBackstoryFilter>
+			</generalSettings>
+		</alienRace>
+	</AlienRace.ThingDef_AlienRace>
+</Defs>

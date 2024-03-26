@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<MemeDef>
+		<defName>ESCP_Structure_OriginOrgnumCult</defName>
+		<label>Orgnum Cult origin</label>
+		<description>This is a variant of the embodied theist structure. This ideoligion is a descendant of the Cult of Orgnum, a religious cult focused on the worship of the Deathless Sorcerer-King of the Maormer, King Orgnum. It may have very different precepts than those of thousands of years ago, but its symbols are similar.</description>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.IdeoOrginProperties">
+				<IgnoreDuplicateDeityNames>true</IgnoreDuplicateDeityNames>
+				<RandomiseDeityType>true</RandomiseDeityType>
+				<overrideDeityIcons>true</overrideDeityIcons>
+				<iconPath>
+					<li>UI/Deities/ESCP_DeityOrgnum</li>
+				</iconPath>
+				<overrideDeityGenders>true</overrideDeityGenders>
+				<deityGenders>
+					<li>Male</li>
+				</deityGenders>
+			</li>
+		</modExtensions>
+		<iconPath>UI/Structures/ESCP_OriginOrgnumCult</iconPath>
+		<deityCount>1</deityCount>
+		<allowSymbolsFromDeity>false</allowSymbolsFromDeity>
+		<symbolPackOverride>true</symbolPackOverride>
+		<worshipRoomLabel>temple</worshipRoomLabel>
+		<category>Structure</category>
+		<impact>0</impact>
+		<requiredRituals>
+		</requiredRituals>
+		<consumableBuildings>
+		</consumableBuildings>
+		<requireAnyRitualSeat>
+		</requireAnyRitualSeat>
+		<generalRules>
+			<rulesStrings>
+				<li>memeCreed->sect</li>
+				<li>memeCreed->cult</li>
+				<li>memeCreed->temple</li>
+				<li>memeCreed->faith</li>
+				<li>memeLeaderNoun->patriarch</li>
+				<li>memeLeaderAdjective->chosen</li>
+				<li>memeLeaderAdjective->serpent</li>
+				<li>memeLeaderAdjective->serpentine</li>
+				<li>memeLeaderAdjective->scaled</li>
+				<li>memeMoralist->priest</li>
+				<li>memeMoralist->cleric</li>
+				<li>memeMoralist->preacher</li>
+			</rulesStrings>
+		</generalRules>
+		<descriptionMaker>
+			<patterns>
+				<li>
+					<def>TheistMyth</def>
+				</li>
+				<li>
+					<def>TheistFounder</def>
+				</li>
+			</patterns>
+			<constants>
+				<li>
+					<key>structure_theist</key>
+					<value>true</value>
+				</li>
+				<li>
+					<key>ESCP_Structure_OriginOrgnum</key>
+					<value>true</value>
+				</li>
+			</constants>
+		</descriptionMaker>
+		<symbolPacks>
+			<li>
+				<ideoName>Cult of Orgnum</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Follower</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>Cult of the Serpent king</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Follower</member>
+				<prefix>true</prefix>
+			</li>
+			<li>
+				<ideoName>Cult of the deathless king</ideoName>
+				<adjective>Acolyte</adjective>
+				<member>Follower</member>
+				<prefix>true</prefix>
+			</li>
+		</symbolPacks>
+		<fixedDeityNameTypes>
+			<li>
+				<name>Orgnum</name>
+				<type>Immortal Monarch</type>
+			</li>
+			<li>
+				<name>Orgnum</name>
+				<type>Sorcerer-King</type>
+			</li>
+			<li>
+				<name>Orgnum</name>
+				<type>Serpent-King</type>
+			</li>
+			<li>
+				<name>Orgnum</name>
+				<type>The Deathless</type>
+			</li>
+		</fixedDeityNameTypes>
+		<thingStyleCategories>
+			<li>
+				<category>ESCP_MaormerStyle</category>
+				<priority>4</priority>
+			</li>
+		</thingStyleCategories>
+	</MemeDef>
+</Defs>

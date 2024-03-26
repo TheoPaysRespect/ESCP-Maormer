@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_WakeWalkerBase]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase" Name="ESCP_MaormerBackstory_Adulthood_WakeWalkerBase" Abstract="True">
+		<spawnCategories>
+			<li>ESCP_MaormerPirate_WakeWalkers_Backstory</li>
+		</spawnCategories>
+		<workDisables>
+			<li>Artistic</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<disallowedTraitsChance>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraitsChance>
+		<maleCommonality>40</maleCommonality>
+		<femaleCommonality>40</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Melee] ==================== -->
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_WakeWalkerA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_WakeWalkerBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_WakeWalkerA</defName>
+		<title>Wake Walkers blademaster</title>
+		<titleShort>blademaster</titleShort>
+		<baseDesc>Always nimble on [PAWN_possessive] feet, [PAWN_nameDef] was a whirlwind of blades during combat. Those that escaped [PAWN_possessive] blades, would soon be felled by the beasts of the Wake Walkers.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Melee>6</Melee>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Nimble</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_WakeWalkerB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_WakeWalkerBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_WakeWalkerB</defName>
+		<title>Wake Walkers sentinel</title>
+		<titleShort>sentinel</titleShort>
+		<baseDesc>Once a guard at one of the many Maormeri embassies, [PAWN_nameDef] decided to turn to a life of piracy, as working conditions constantly grew worse. [PAWN_pronoun] joined the Wake Walkers, which was a rather odd choice, as [PAWN_nameDef] was neither nimble nor good with animals.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Melee>8</Melee>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Ranged] ==================== -->
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_WakeWalkerC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_WakeWalkerBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_WakeWalkerC</defName>
+		<title>Wake Walkers archer</title>
+		<titleShort>archer</titleShort>
+		<baseDesc>[PAWN_nameDef] wasn't content with just turning someone into a pincushion, [PAWN_pronoun] wanted to make them suffer a bit. Seeing as the Wake Walkers often utilised animals, coming across various venoms wasn't exactly an issue.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Animals>2</Animals>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Nimble</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Intellectual] ==================== -->
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_WakeWalkerD]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_WakeWalkerBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_WakeWalkerD</defName>
+		<title>Wake Walkers mender</title>
+		<titleShort>mender</titleShort>
+		<baseDesc>As a member of the Wake Walkers, [PAWN_nameDef] had to not only tend to [PAWN_possessive] fellow crew members, but also the beasts they fought alongside. Luckily [PAWN_pronoun] was used to dealing with animals, especially animals that didn't want to be dealt with.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Medicine>2</Medicine>
+			<Intellectual>2</Intellectual>
+			<Animals>2</Animals>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Animals] ==================== -->
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_WakeWalkerE]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_WakeWalkerBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_WakeWalkerE</defName>
+		<title>Wake Walkers beastmaster</title>
+		<titleShort>beastmaster</titleShort>
+		<baseDesc>As a beastmaster, [PAWN_nameDef] was one of the most important members of the Wake Walkers, excluding the captain of course. [PAWN_pronoun] had assembled a small menagerie for use in combat, from giant snakes, to the ferocious haj mota.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Animals>6</Animals>
+			<Melee>3</Melee>
+		</skillGains>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_WakeWalkerF]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_WakeWalkerBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_WakeWalkerF</defName>
+		<title>Wake Walkers captain</title>
+		<titleShort>captain</titleShort>
+		<baseDesc>There were many ways pirate captains could display their power, and [PAWN_nameDef] decided [PAWN_pronoun] wanted the largest beast [PAWN_pronoun] could find. So that's how [PAWN_nameDef] wound up with a pet haj mota.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Social>5</Social>
+			<Animals>5</Animals>
+		</skillGains>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>0</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

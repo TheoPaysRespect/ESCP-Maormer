@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_BlueVenomBase]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase" Name="ESCP_MaormerBackstory_Adulthood_BlueVenomBase" Abstract="True">
+		<spawnCategories>
+			<li>ESCP_MaormerPirate_BlueVenom_Backstory</li>
+		</spawnCategories>
+		<workDisables>
+			<li>Artistic</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_StormSharkMageBase]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBackstory_MageBase" Name="ESCP_MaormerBackstory_Adulthood_BlueVenomMageBase" Abstract="True">
+		<spawnCategories>
+			<li>ESCP_MaormerPirate_BlueVenom_Backstory</li>
+		</spawnCategories>
+		<workDisables>
+			<li>Artistic</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Melee] ==================== -->
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_BlueVenomA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_BlueVenomBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_BlueVenomA</defName>
+		<title>Blue Venom swashbuckler</title>
+		<titleShort>swashbuckler</titleShort>
+		<baseDesc>While somewhat skilled with a blade, [PAWN_nameDef] was also somewhat knowledgeable about elemental salts, and made great use of this knowledge during skirmishes.\n\n[PAWN_nameDef] is one of the few survivors of the Blue Venom pirates, and is now in hiding, hoping one day to reconnect with the remainders of [PAWN_possessive] crew.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Melee>6</Melee>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<forcedHediffs>
+			<li>ESCP_ViolentMeditationHediff</li>
+		</forcedHediffs>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_BlueVenomB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_BlueVenomBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_BlueVenomB</defName>
+		<title>Blue Venom bounty hunter</title>
+		<titleShort>bounty hunter</titleShort>
+		<baseDesc>[PAWN_nameDef] had a knack for finding people that didn't want to be found, especially when there was a price on their head. This skill was rather invaluable for the Blue Venom pirates, and made up one of their main sources of income.\n\n[PAWN_nameDef] is one of the few survivors of the Blue Venom pirates, and is now in hiding, hoping one day to reconnect with the remainders of [PAWN_possessive] crew.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Melee>6</Melee>
+			<Social>2</Social>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Nimble</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==================== [Intellectual] ==================== -->
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_BlueVenomC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_BlueVenomMageBase">
+		<defName>ESCP_Maormer_BlueVenomFlameAdeptBackstoryC</defName>
+		<title>Blue Venom flame adept</title>
+		<titleShort>flame adept</titleShort>
+		<baseDesc>Somewhat talented with magic, and ever obsessed with the flicker of flame, it was obvious that [PAWN_nameDef] would become a fire mage. This skillset proved rather useful for the Blue Venom pirates, especially if they needed evidence of their activities to disappear.\n\n[PAWN_nameDef] is one of the few survivors of the Blue Venom pirates, and is now in hiding, hoping one day to reconnect with the remainders of [PAWN_possessive] crew.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>4</Intellectual>
+			<Shooting>4</Shooting>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Pyromaniac</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_BlueVenomD]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_BlueVenomMageBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_BlueVenomD</defName>
+		<title>Blue Venom necromancer</title>
+		<titleShort>necromancer</titleShort>
+		<baseDesc>Having a necromancer in your crew proved rather useful for the Blue Venom pirates. [PAWN_nameDef] ensured crew members were never truly lost in battle, and turned extended skirmishes into battles of attrition.\n\n[PAWN_nameDef] is one of the few survivors of the Blue Venom pirates, and is now in hiding, hoping one day to reconnect with the remainders of [PAWN_possessive] crew.</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<skillGains>
+			<Intellectual>8</Intellectual>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<forcedHediffs>
+			<li MayRequire="SirMashedPotato.ESCP.NecromanticThralls">ESCP_NecromanticThralls_ThrallStorage</li>
+		</forcedHediffs>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

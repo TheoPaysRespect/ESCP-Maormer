@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GoodwillSituationDef MayRequire="SirMashedPotato.ESCP.Altmer">
+		<defName>ESCP_Maormer_Altmer</defName>
+		<label>Maormer vs Altmer</label>
+		<workerClass>ESCP_RaceTools.GoodWillWorker_UniversalFactionTagCompatibility</workerClass>
+		<naturalGoodwillOffset>-100</naturalGoodwillOffset>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.FactionGoodwillProperties">
+				<FactionTagA>ESCP_MaormerFaction</FactionTagA>
+				<FactionTagB>ESCP_AltmerFaction</FactionTagB>
+			</li>
+		</modExtensions>
+	</GoodwillSituationDef>
+</Defs>

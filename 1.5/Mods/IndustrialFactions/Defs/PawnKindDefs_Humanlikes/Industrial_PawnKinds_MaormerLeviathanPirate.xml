@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_Industrial_MaormerLeviathanDrifter]========== -->
+	<PawnKindDef ParentName="DrifterBase">
+		<defName>ESCP_Industrial_MaormerLeviathanDrifter</defName>
+		<label>snakeskin drifter</label>
+		<combatPower>55</combatPower>
+		<!-- Maormer stuff -->
+		<race>ESCP_MaormerLeviathanRace</race>
+		<defaultFactionType>ESCP_Industrial_MaormerNonPlayerFaction_Pirate</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>ESCP_MaormerLeviathanBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Outlander</li>
+					<li>Pirate</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+					<li>ESCP_MaormerBackstory_Adulthood</li>
+					<li>ESCP_MaormerLeviathanBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeAdulthood>
+					<li>ESCP_MaormerBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<!-- ==========[ESCP_Industrial_MaormerLeviathanScavenger]========== -->
+	<PawnKindDef ParentName="ScavengerBase">
+		<defName>ESCP_Industrial_MaormerLeviathanScavenger</defName>
+		<label>snakeskin gunner</label>
+		<combatPower>70</combatPower>
+		<!-- Maormer stuff -->
+		<race>ESCP_MaormerLeviathanRace</race>
+		<defaultFactionType>ESCP_Industrial_MaormerNonPlayerFaction_Pirate</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>ESCP_MaormerLeviathanBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Outlander</li>
+					<li>Pirate</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+					<li>ESCP_MaormerBackstory_Adulthood</li>
+					<li>ESCP_MaormerLeviathanBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeAdulthood>
+					<li>ESCP_MaormerBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<!-- ==========[ESCP_Industrial_MaormerLeviathanThrasher]========== -->
+	<PawnKindDef ParentName="ThrasherBase">
+		<defName>ESCP_Industrial_MaormerLeviathanThrasher</defName>
+		<label>snakeskin thrasher</label>
+		<combatPower>70</combatPower>
+		<!-- Maormer stuff -->
+		<race>ESCP_MaormerLeviathanRace</race>
+		<defaultFactionType>ESCP_Industrial_MaormerNonPlayerFaction_Pirate</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>ESCP_MaormerLeviathanBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Outlander</li>
+					<li>Pirate</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+					<li>ESCP_MaormerBackstory_Adulthood</li>
+					<li>ESCP_MaormerLeviathanBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeAdulthood>
+					<li>ESCP_MaormerBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<!-- ==========[ESCP_Industrial_MaormerLeviathanPirate]========== -->
+	<PawnKindDef ParentName="PirateKindBase">
+		<defName>ESCP_Industrial_MaormerLeviathanPirate</defName>
+		<label>snakeskin pirate</label>
+		<combatPower>85</combatPower>
+		<!-- Maormer stuff -->
+		<race>ESCP_MaormerLeviathanRace</race>
+		<defaultFactionType>ESCP_Industrial_MaormerNonPlayerFaction_Pirate</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>ESCP_MaormerLeviathanBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Outlander</li>
+					<li>Pirate</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+					<li>ESCP_MaormerBackstory_Adulthood</li>
+					<li>ESCP_MaormerLeviathanBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeAdulthood>
+					<li>ESCP_MaormerBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+</Defs>

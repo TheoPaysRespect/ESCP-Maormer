@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_MaormerLeviathan_TribalBase]========== -->
+	<PawnKindDef Name="ESCP_MaormerLeviathan_TribalBase" Abstract="True">
+		<race>ESCP_MaormerLeviathanRace</race>
+		<defaultFactionType>ESCP_MaormerNonPlayerFaction_Kingdom</defaultFactionType>
+		<maxGenerationAge>150</maxGenerationAge>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<invNutrition>2.55</invNutrition>
+		<invFoodDef>Pemmican</invFoodDef>
+		<apparelTags>
+			<li>Neolithic</li>
+			<li>Medieval</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>ESCP_MaormerLeviathanBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+					<li>ESCP_MaormerBackstory_Adulthood</li>
+					<li>ESCP_MaormerLeviathanBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_MaormerBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_MaormerBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<!-- ==========[ESCP_MaormerLeviathan_Tribal_Warrior]========== -->
+	<PawnKindDef ParentName="ESCP_MaormerLeviathan_TribalBase">
+		<defName>ESCP_MaormerLeviathan_Tribal_Warrior</defName>
+		<label>snakeskin warrior</label>
+		<combatPower>80</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<canBeSapper>true</canBeSapper>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelMoney>200~300</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_WarVeil</li>
+		</apparelRequired>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>NeolithicMeleeDecent</li>
+		</weaponTags>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>5~9</initialResistanceRange>
+	</PawnKindDef>
+	<!-- ==========[ESCP_MaormerLeviathan_Tribal_Breacher]========== -->
+	<PawnKindDef ParentName="ESCP_MaormerLeviathan_TribalBase">
+		<defName>ESCP_MaormerLeviathan_Tribal_Breacher</defName>
+		<label>snakeskin breacher</label>
+		<combatPower>85</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<canBeSapper>true</canBeSapper>
+		<isGoodBreacher>true</isGoodBreacher>
+		<gearHealthRange>0.5~1.8</gearHealthRange>
+		<apparelMoney>200~300</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_WarVeil</li>
+		</apparelRequired>
+		<weaponMoney>150~150</weaponMoney>
+		<weaponTags>
+			<li>NeolithicMeleeDestructive</li>
+		</weaponTags>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>12~19</initialResistanceRange>
+	</PawnKindDef>
+	<!-- ==========[ESCP_MaormerLeviathan_Tribal_Berserker]========== -->
+	<PawnKindDef ParentName="ESCP_MaormerLeviathan_TribalBase">
+		<defName>ESCP_MaormerLeviathan_Tribal_Berserker</defName>
+		<label>snakeskin berserker</label>
+		<combatPower>95</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<apparelMoney>200~550</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_WarMask</li>
+		</apparelRequired>
+		<weaponMoney>300~300</weaponMoney>
+		<weaponTags>
+			<li>NeolithicMeleeAdvanced</li>
+		</weaponTags>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>13~20</initialResistanceRange>
+	</PawnKindDef>
+</Defs>
