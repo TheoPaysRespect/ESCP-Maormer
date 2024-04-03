@@ -16,7 +16,7 @@
 			<ComfyTemperatureMin>1</ComfyTemperatureMin>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
 			<SwimSpeed MayRequireAnyOf="pyrce.swimming.modkit">6</SwimSpeed>
-			<MorrowRim_AshResistance MayRequire="SirMashedPotato.MorrowRimRemade">0.8</MorrowRim_AshResistance>
+			<Mashed_Ashlands_AshResistance MayRequire="sirmashedpotato.ashlands">0.8</Mashed_Ashlands_AshResistance>
 		</statBases>
 		<uiIconScale>1.0</uiIconScale>
 		<tools>
@@ -62,7 +62,7 @@
 				<amount>0.01</amount>
 				<ticksBetween>900</ticksBetween>
 				<radius>3</radius>
-				<fleck>PsycastAreaEffect</fleck>
+				<!--<fleck>PsycastAreaEffect</fleck>-->
 			</li>
 		</comps>
 		<race>
@@ -76,6 +76,7 @@
 			<leatherDef>Leather_Lizard</leatherDef>
 			<wildness>0.9</wildness>
 			<petness>0.01</petness>
+			<trainability>Intermediate</trainability>
 			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.75</manhunterOnDamageChance>
 			<wildBiomes>
@@ -84,8 +85,8 @@
 				<TropicalRainforest>0.07</TropicalRainforest>
 				<TropicalSwamp>0.07</TropicalSwamp>
 				<!-- MorrowRim -->
-				<MorrowRim_Ashlands MayRequire="SirMashedPotato.MorrowRim">0.05</MorrowRim_Ashlands>
-				<MorrowRim_AshSwamp MayRequire="SirMashedPotato.MorrowRim.AshSwamp">0.07</MorrowRim_AshSwamp>
+				<Mashed_Ashlands_Ashlands MayRequire="sirmashedpotato.ashlands">0.05</Mashed_Ashlands_Ashlands>
+				<Mashed_Ashlands_SwampAshlands MayRequire="sirmashedpotato.ashlands">0.07</Mashed_Ashlands_SwampAshlands>
 				<!-- Biomes! -->
 				<BiomesIslands_TemperateIsland MayRequire="BiomesTeam.BiomesIslands">0.05</BiomesIslands_TemperateIsland>
 				<BiomesIslands_TemperateArchipelago MayRequire="BiomesTeam.BiomesIslands">0.05</BiomesIslands_TemperateArchipelago>
