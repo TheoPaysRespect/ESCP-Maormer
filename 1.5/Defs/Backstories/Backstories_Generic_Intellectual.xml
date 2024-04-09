@@ -5,7 +5,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_IntellectualA</defName>
 		<title>spy</title>
 		<titleShort>spy</titleShort>
-		<baseDesc>As a both a spy and a Maormer, [PAWN_nameDef] couldn't just rely on words to achieve [PAWN_possessive] goals. [PAWN_pronoun] had to rely almost solely on [PAWN_possessive] wits, and what fine wits they were.</baseDesc>
+		<description>As a both a spy and a Maormer, [PAWN_nameDef] couldn't just rely on words to achieve [PAWN_possessive] goals. [PAWN_pronoun] had to rely almost solely on [PAWN_possessive] wits, and what fine wits they were.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>

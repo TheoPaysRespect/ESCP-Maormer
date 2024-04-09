@@ -5,7 +5,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_MiningA</defName>
 		<title>orgnium miner</title>
 		<titleShort>miner</titleShort>
-		<baseDesc>[PAWN_nameDef] slaved away in one of the largest orgnium mines on Pyandonea. Many days were spent delving into the depths, searching for even the smallest traces of orgnium.</baseDesc>
+		<description>[PAWN_nameDef] slaved away in one of the largest orgnium mines on Pyandonea. Many days were spent delving into the depths, searching for even the smallest traces of orgnium.</description>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<skillGains>
 			<Mining>6</Mining>
@@ -21,7 +21,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_MiningB</defName>
 		<title>cavern excavator</title>
 		<titleShort>excavator</titleShort>
-		<baseDesc>[PAWN_nameDef] decided to take on the back-breaking work of excavating caverns. Not only did [PAWN_nameDef] need to be good with a pick, [PAWN_pronoun] needed to be good with a hammer too.</baseDesc>
+		<description>[PAWN_nameDef] decided to take on the back-breaking work of excavating caverns. Not only did [PAWN_nameDef] need to be good with a pick, [PAWN_pronoun] needed to be good with a hammer too.</description>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<skillGains>
 			<Mining>3</Mining>
@@ -38,7 +38,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_MiningC</defName>
 		<title>outpost miner</title>
 		<titleShort>miner</titleShort>
-		<baseDesc>[PAWN_nameDef] worked at one of the many mines the Maormer had set up in off the coast of Valenwood, with the goal of finding precious minerals. Tensions were always high, as [PAWN_nameDef] and his fellow miners didn't exactly have permission to be there, and at any second arrows could start raining down from between the trees.</baseDesc>
+		<description>[PAWN_nameDef] worked at one of the many mines the Maormer had set up in off the coast of Valenwood, with the goal of finding precious minerals. Tensions were always high, as [PAWN_nameDef] and his fellow miners didn't exactly have permission to be there, and at any second arrows could start raining down from between the trees.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -59,7 +59,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_MiningD</defName>
 		<title>treasure hunter</title>
 		<titleShort>hunter</titleShort>
-		<baseDesc>[PAWN_nameDef] was an aspiring treasure hunter, which meant [PAWN_pronoun] spent most days digging around in the sand, hoping to find something worth anything. [PAWN_nameDef] did find a few sea serpent scales, and some Altmer bones, but that was about it.</baseDesc>
+		<description>[PAWN_nameDef] was an aspiring treasure hunter, which meant [PAWN_pronoun] spent most days digging around in the sand, hoping to find something worth anything. [PAWN_nameDef] did find a few sea serpent scales, and some Altmer bones, but that was about it.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Mining>3</Mining>

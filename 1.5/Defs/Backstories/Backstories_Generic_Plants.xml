@@ -5,7 +5,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_PlantsA</defName>
 		<title>kelp farmer</title>
 		<titleShort>farmer</titleShort>
-		<baseDesc>[PAWN_nameDef] was in charge of one of the many kelp forests surrounding Pyandonea. Kelp was pretty easy to grow, and [PAWN_nameDef] didn't really need to do anything except keep an eye on it. However, harvesting it was an entirely different matter.</baseDesc>
+		<description>[PAWN_nameDef] was in charge of one of the many kelp forests surrounding Pyandonea. Kelp was pretty easy to grow, and [PAWN_nameDef] didn't really need to do anything except keep an eye on it. However, harvesting it was an entirely different matter.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -20,7 +20,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_PlantsB</defName>
 		<title>coral grower</title>
 		<titleShort>grower</titleShort>
-		<baseDesc>[PAWN_nameDef] grew for exotic species of coral for a living. There were so many different colours, and shapes, and [PAWN_nameDef] cared for each one equally.</baseDesc>
+		<description>[PAWN_nameDef] grew for exotic species of coral for a living. There were so many different colours, and shapes, and [PAWN_nameDef] cared for each one equally.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Plants>6</Plants>
@@ -36,7 +36,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_PlantsC</defName>
 		<title>outpost lumberer</title>
 		<titleShort>lumberer</titleShort>
-		<baseDesc>Good quality wood was somewhat in demand in Pyandonea, and one of the closest places to get it just happened to be Valenwood. So [PAWN_nameDef], and many others, set up logging outposts in Valenwood. quite the risky decision, as Bosmer are quite fond of their trees. Unsurprisingly, [PAWN_possessive] time there didn't last very long, as they were quickly driven back to Pyandonea by the Bosmer.</baseDesc>
+		<description>Good quality wood was somewhat in demand in Pyandonea, and one of the closest places to get it just happened to be Valenwood. So [PAWN_nameDef], and many others, set up logging outposts in Valenwood. quite the risky decision, as Bosmer are quite fond of their trees. Unsurprisingly, [PAWN_possessive] time there didn't last very long, as they were quickly driven back to Pyandonea by the Bosmer.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -57,7 +57,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_PlantsE</defName>
 		<title>alchemist</title>
 		<titleShort>alchemist</titleShort>
-		<baseDesc>[PAWN_nameDef] had extensive knowledge of the plants that grow on Pyandonea, and their alchemical uses. While this knowledge could have been used for certain nefarious purposes, [PAWN_nameDef] was mostly interested in providing aid wherever possible.</baseDesc>
+		<description>[PAWN_nameDef] had extensive knowledge of the plants that grow on Pyandonea, and their alchemical uses. While this knowledge could have been used for certain nefarious purposes, [PAWN_nameDef] was mostly interested in providing aid wherever possible.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -72,7 +72,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_PlantsF</defName>
 		<title>Thrassian coral cultivator</title>
 		<titleShort>cultivator</titleShort>
-		<baseDesc>[PAWN_nameDef] managed to obtain a truly rare species of coral, one that could only be found on the Thrassian Archipelago. [PAWN_nameDef] treasured that little coral, as if it were [PAWN_possessive] own child. But it never managed to grow very large, likely because it longed for its homeland.</baseDesc>
+		<description>[PAWN_nameDef] managed to obtain a truly rare species of coral, one that could only be found on the Thrassian Archipelago. [PAWN_nameDef] treasured that little coral, as if it were [PAWN_possessive] own child. But it never managed to grow very large, likely because it longed for its homeland.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>

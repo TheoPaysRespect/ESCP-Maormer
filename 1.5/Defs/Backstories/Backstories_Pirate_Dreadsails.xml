@@ -32,15 +32,14 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_DreadSailA</defName>
 		<title>Dreadsails warrior</title>
 		<titleShort>warrior</titleShort>
-		<baseDesc>[PAWN_nameDef] was a member of the Dreadsails, admittedly not entirely by choice, at least not anymore. What once seemed like a good idea, a pathway to fame, fortune and glory, [PAWN_nameDef] realised would simply lead to an early grave. Not that [PAWN_nameDef] would even be allowed to rest in death.</baseDesc>
+		<description>[PAWN_nameDef] was a member of the Dreadsails, admittedly not entirely by choice, at least not anymore. What once seemed like a good idea, a pathway to fame, fortune and glory, [PAWN_nameDef] realised would simply lead to an early grave. Not that [PAWN_nameDef] would even be allowed to rest in death.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Melee>5</Melee>
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>Nerves</defName>
-				<degree>-1</degree>
+				<defName Degree="-1">Nerves</defName>
 				<chance>50</chance>
 			</li>
 		</forcedTraitsChance>
@@ -52,7 +51,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_DreadSailB</defName>
 		<title>Dreadsails raider</title>
 		<titleShort>raider</titleShort>
-		<baseDesc>[PAWN_nameDef] lived for the battle, for the bloodshed, for the cries of pain. Or at least [PAWN_nameDef] thought [PAWN_pronoun] did. The longer [PAWN_pronoun] served on the Dreadsail, the more obvious it became that death was [PAWN_possessive] life now, and for eternity after.</baseDesc>
+		<description>[PAWN_nameDef] lived for the battle, for the bloodshed, for the cries of pain. Or at least [PAWN_nameDef] thought [PAWN_pronoun] did. The longer [PAWN_pronoun] served on the Dreadsail, the more obvious it became that death was [PAWN_possessive] life now, and for eternity after.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -61,8 +60,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>Nerves</defName>
-				<degree>-1</degree>
+				<defName Degree="-1">Nerves</defName>
 				<chance>50</chance>
 			</li>
 		</forcedTraitsChance>
@@ -72,7 +70,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_DreadSailC</defName>
 		<title>Dreadsails sentinel</title>
 		<titleShort>sentinel</titleShort>
-		<baseDesc>Once a guard at one of the many Maormeri embassies, [PAWN_nameDef] decided to turn to a life of piracy, as working conditions constantly grew worse. [PAWN_pronoun] joined the Dreadsails, which in hindsight was a terrible choice. Unbeknown to [PAWN_nameDef], [PAWN_pronoun] had entered a pact of lifelong servitude.</baseDesc>
+		<description>Once a guard at one of the many Maormeri embassies, [PAWN_nameDef] decided to turn to a life of piracy, as working conditions constantly grew worse. [PAWN_pronoun] joined the Dreadsails, which in hindsight was a terrible choice. Unbeknown to [PAWN_nameDef], [PAWN_pronoun] had entered a pact of lifelong servitude.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -80,8 +78,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>Nerves</defName>
-				<degree>-1</degree>
+				<defName Degree="-1">Nerves</defName>
 				<chance>50</chance>
 			</li>
 		</forcedTraitsChance>
@@ -91,7 +88,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_DreadSailD</defName>
 		<title>Dreadsails tempest</title>
 		<titleShort>tempest</titleShort>
-		<baseDesc>[PAWN_nameDef] was a literal whirlwind on the battlefield, striking with both blades and magic, none could escape [PAWN_pronoun]. Which made [PAWN_nameDef] the perfect warrior for the Dreadsails.</baseDesc>
+		<description>[PAWN_nameDef] was a literal whirlwind on the battlefield, striking with both blades and magic, none could escape [PAWN_pronoun]. Which made [PAWN_nameDef] the perfect warrior for the Dreadsails.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Melee>5</Melee>
@@ -112,7 +109,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_DreadSailE</defName>
 		<title>Dreadsails captain</title>
 		<titleShort>captain</titleShort>
-		<baseDesc>As both a highly skilled water mage, and a leviathan, [PAWN_nameDef] was the obvious pick for the captain of the Dreadsails, not that the crew really had a say. Many of the crew found it strange that a leviathan would have such an affinity water magic. However none dared bring this up when [PAWN_nameDef] was around.</baseDesc>
+		<description>As both a highly skilled water mage, and a leviathan, [PAWN_nameDef] was the obvious pick for the captain of the Dreadsails, not that the crew really had a say. Many of the crew found it strange that a leviathan would have such an affinity water magic. However none dared bring this up when [PAWN_nameDef] was around.</description>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<spawnCategories Inherit="False">
 			<li>ESCP_MaormerLeviathanBackstory_Adulthood</li>
@@ -133,7 +130,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_DreadSailF</defName>
 		<title>Dreadsails queen</title>
 		<titleShort>queen</titleShort>
-		<baseDesc>While the crew of the Dreadsails reported to their captain, there was in fact someone even higher up the food chain, [PAWN_nameDef]. Most of the crew didn't even dare whisper [PAWN_possessive] name, for the crew of the Dreadsails could be split into two main groups. Those that served willingly, and those that served for eternity.</baseDesc>
+		<description>While the crew of the Dreadsails reported to their captain, there was in fact someone even higher up the food chain, [PAWN_nameDef]. Most of the crew didn't even dare whisper [PAWN_possessive] name, for the crew of the Dreadsails could be split into two main groups. Those that served willingly, and those that served for eternity.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>

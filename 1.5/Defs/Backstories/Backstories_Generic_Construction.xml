@@ -5,7 +5,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_ConstructionA</defName>
 		<title>dock builder</title>
 		<titleShort>builder</titleShort>
-		<baseDesc>Pyandonea had a great need for docks, and [PAWN_nameDef] was one of the many that helped fulfil that need.</baseDesc>
+		<description>Pyandonea had a great need for docks, and [PAWN_nameDef] was one of the many that helped fulfil that need.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -17,7 +17,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_ConstructionB</defName>
 		<title>shipwright</title>
 		<titleShort>shipwright</titleShort>
-		<baseDesc>[PAWN_nameDef] was one of the many shipwrights found on Pyandonea, a profession that was always in demand there. Maormeri ships are quite unlike any other, for they are constructed out of chitin instead of wood. Of course this difference in building technique didn't make it any easier for [PAWN_nameDef].</baseDesc>
+		<description>[PAWN_nameDef] was one of the many shipwrights found on Pyandonea, a profession that was always in demand there. Maormeri ships are quite unlike any other, for they are constructed out of chitin instead of wood. Of course this difference in building technique didn't make it any easier for [PAWN_nameDef].</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -32,7 +32,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_ConstructionC</defName>
 		<title>foreman</title>
 		<titleShort>foreman</titleShort>
-		<baseDesc>[PAWN_nameDef] ordered around all of the shipwrights, who in all honestly were rather clueless as to the process of building a ship. [PAWN_possessive] time at work was exhausting, but [PAWN_nameDef] did consider it worthwhile, as there was always a fine vessel waiting at the end of it all.</baseDesc>
+		<description>[PAWN_nameDef] ordered around all of the shipwrights, who in all honestly were rather clueless as to the process of building a ship. [PAWN_possessive] time at work was exhausting, but [PAWN_nameDef] did consider it worthwhile, as there was always a fine vessel waiting at the end of it all.</description>
 		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<skillGains>
 			<Construction>5</Construction>

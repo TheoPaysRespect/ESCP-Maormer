@@ -5,7 +5,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_AnimalsA</defName>
 		<title>sea adder tamer</title>
 		<titleShort>adder tamer</titleShort>
-		<baseDesc>[PAWN_nameDef] was rather skilled at taming sea adders. Admittedly this wasn't exactly something to brag about, as sea adders are far more manageable than the larger reef vipers, but [PAWN_nameDef] didn't really care.</baseDesc>
+		<description>[PAWN_nameDef] was rather skilled at taming sea adders. Admittedly this wasn't exactly something to brag about, as sea adders are far more manageable than the larger reef vipers, but [PAWN_nameDef] didn't really care.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -17,7 +17,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_AnimalsB</defName>
 		<title>reef viper tamer</title>
 		<titleShort>viper tamer</titleShort>
-		<baseDesc>Even when reared in captivity, reef vipers are rather aggressive, and only those with a skilled touch are able to tame them. [PAWN_nameDef] was one such person, and even then [PAWN_pronoun] has nearly lost fingers a few times.</baseDesc>
+		<description>Even when reared in captivity, reef vipers are rather aggressive, and only those with a skilled touch are able to tame them. [PAWN_nameDef] was one such person, and even then [PAWN_pronoun] has nearly lost fingers a few times.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -31,7 +31,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_AnimalsC</defName>
 		<title>reef viper handler</title>
 		<titleShort>viper handler</titleShort>
-		<baseDesc>The Maormer were well known to employ the use of reef vipers when raiding Summerset, and [PAWN_nameDef] was one of the many in charge of handling them in the field. While being taken down by a reef viper is quite a terrifying experience, it's nothing compared tending the vipers wounds afterwards.</baseDesc>
+		<description>The Maormer were well known to employ the use of reef vipers when raiding Summerset, and [PAWN_nameDef] was one of the many in charge of handling them in the field. While being taken down by a reef viper is quite a terrifying experience, it's nothing compared tending the vipers wounds afterwards.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -46,7 +46,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_AnimalsD</defName>
 		<title>crab rancher</title>
 		<titleShort>rancher</titleShort>
-		<baseDesc>Many kinds of crab could be found on Pyandonea, many of which were farmed for meat. [PAWN_nameDef] worked at a small family owned crab ranch down by the coast. While most of [PAWN_possessive] times was spent in the fields, quite a bit was also spent in the kitchen.</baseDesc>
+		<description>Many kinds of crab could be found on Pyandonea, many of which were farmed for meat. [PAWN_nameDef] worked at a small family owned crab ranch down by the coast. While most of [PAWN_possessive] times was spent in the fields, quite a bit was also spent in the kitchen.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -61,7 +61,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_AnimalsE</defName>
 		<title>pearl diver</title>
 		<titleShort>diver</titleShort>
-		<baseDesc>[PAWN_nameDef] decided to earn a living diving for pearls. This was easier said than done, as most of the reefs were home to sea serpents. But eventually [PAWN_nameDef] would find enough to make jewellery out of.</baseDesc>
+		<description>[PAWN_nameDef] decided to earn a living diving for pearls. This was easier said than done, as most of the reefs were home to sea serpents. But eventually [PAWN_nameDef] would find enough to make jewellery out of.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Animals>3</Animals>
@@ -78,7 +78,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_AnimalsF</defName>
 		<title>sep adder tamer</title>
 		<titleShort>adder tamer</titleShort>
-		<baseDesc>While most Maormer chose to work with sea adders or reef vipers, assuming they wished to work with serpents at all, [PAWN_nameDef] decided to work with sep adders. Unlike the native serpents of Pyandonea, sep adders aren't exactly used to Maormer, and don't much care for being prodded with sticks. [PAWN_nameDef] learnt this the hard way, yet still [PAWN_pronoun] persevered.</baseDesc>
+		<description>While most Maormer chose to work with sea adders or reef vipers, assuming they wished to work with serpents at all, [PAWN_nameDef] decided to work with sep adders. Unlike the native serpents of Pyandonea, sep adders aren't exactly used to Maormer, and don't much care for being prodded with sticks. [PAWN_nameDef] learnt this the hard way, yet still [PAWN_pronoun] persevered.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Animals>2</Animals>
@@ -95,7 +95,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_AnimalsG</defName>
 		<title>thunderbug rancher</title>
 		<titleShort>thunderbug rancher</titleShort>
-		<baseDesc>[PAWN_nameDef] worked at a small thunderbug ranch. While the meat and chitin of thunderbugs were worth a decent amount, [PAWN_nameDef] was mostly interested in their hearts, and often experimented with them in [PAWN_possessive] spare time.</baseDesc>
+		<description>[PAWN_nameDef] worked at a small thunderbug ranch. While the meat and chitin of thunderbugs were worth a decent amount, [PAWN_nameDef] was mostly interested in their hearts, and often experimented with them in [PAWN_possessive] spare time.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Animals>3</Animals>
@@ -109,7 +109,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_AnimalsH</defName>
 		<title>wasten coraldale mudcrab farmer</title>
 		<titleShort>mudcrab farmer</titleShort>
-		<baseDesc>[PAWN_nameDef] worked at one of the finest crab ranches on Pyandonea, for this one specialised in the Wasten Coraldale Mudcrab. The meat of the Wasten Coraldale Mudcrab is considered quite the delicacy by the Maormer, and [PAWN_nameDef] most certainly sampled some whenever possible.</baseDesc>
+		<description>[PAWN_nameDef] worked at one of the finest crab ranches on Pyandonea, for this one specialised in the Wasten Coraldale Mudcrab. The meat of the Wasten Coraldale Mudcrab is considered quite the delicacy by the Maormer, and [PAWN_nameDef] most certainly sampled some whenever possible.</description>
 		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<skillGains>
 			<Animals>5</Animals>
@@ -123,7 +123,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_AnimalsI</defName>
 		<title>sea serpent tamer</title>
 		<titleShort>serpent tamer</titleShort>
-		<baseDesc>[PAWN_nameDef] was among the most skilled tamers to be found on Pyandonea. While most tame sea adders and reef vipers, [PAWN_nameDef] tamed sea serpents, some of the largest, and most ferocious, serpents around.</baseDesc>
+		<description>[PAWN_nameDef] was among the most skilled tamers to be found on Pyandonea. While most tame sea adders and reef vipers, [PAWN_nameDef] tamed sea serpents, some of the largest, and most ferocious, serpents around.</description>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<skillGains>
 			<Animals>10</Animals>
@@ -140,7 +140,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_AnimalsJ</defName>
 		<title>slaughterfish breeder</title>
 		<titleShort>slaughterfish breeder</titleShort>
-		<baseDesc>One day [PAWN_nameDef] decided [PAWN_pronoun] wanted to rule the seas. Of course for most Maormer, plans such as these would involve forming a pirate crew, or taming a particularly large sea serpent. [PAWN_nameDef] decided to take [PAWN_possessive] plans for oceanic domination in a slightly different direction, and started breeding slaughterfish.\n\nEventually the swarm grew so large that there was no containing it. A few days later [PAWN_nameDef] recieved word that one of Orgnum's prized sea serpents had been devoured. [PAWN_nameDef] took the first ship [PAWN_pronoun] could find.</baseDesc>
+		<description>One day [PAWN_nameDef] decided [PAWN_pronoun] wanted to rule the seas. Of course for most Maormer, plans such as these would involve forming a pirate crew, or taming a particularly large sea serpent. [PAWN_nameDef] decided to take [PAWN_possessive] plans for oceanic domination in a slightly different direction, and started breeding slaughterfish.\n\nEventually the swarm grew so large that there was no containing it. A few days later [PAWN_nameDef] recieved word that one of Orgnum's prized sea serpents had been devoured. [PAWN_nameDef] took the first ship [PAWN_pronoun] could find.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Animals>4</Animals>
@@ -149,8 +149,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>Nerves</defName>
-				<degree>-2</degree>
+				<defName Degree="-2">Nerves</defName>
 				<chance>100</chance>
 			</li>
 		</forcedTraitsChance>

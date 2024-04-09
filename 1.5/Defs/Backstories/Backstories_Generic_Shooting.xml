@@ -5,7 +5,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_ShootingA</defName>
 		<title>hunter</title>
 		<titleShort>hunter</titleShort>
-		<baseDesc>[PAWN_nameDef] always enjoyed the calm of going out into the wilderness, and tracking one of the beasts found there. Pyandonea was home to some strange creatures, and while [PAWN_nameDef] was never scared, the thought of encountering a lizard bull did make [PAWN_objective] nervous.</baseDesc>
+		<description>[PAWN_nameDef] always enjoyed the calm of going out into the wilderness, and tracking one of the beasts found there. Pyandonea was home to some strange creatures, and while [PAWN_nameDef] was never scared, the thought of encountering a lizard bull did make [PAWN_objective] nervous.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>

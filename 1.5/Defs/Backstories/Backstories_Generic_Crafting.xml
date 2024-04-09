@@ -5,7 +5,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_CraftingA</defName>
 		<title>net maker</title>
 		<titleShort>net maker</titleShort>
-		<baseDesc>Nets were a highly in demand commodity on Pyandonea, and [PAWN_nameDef] took great advantage of it. [PAWN_pronoun] would always spread the many uses of nets to any potential customers, and even managed to gain the eyes of a few high ranking members of a pirate band.</baseDesc>
+		<description>Nets were a highly in demand commodity on Pyandonea, and [PAWN_nameDef] took great advantage of it. [PAWN_pronoun] would always spread the many uses of nets to any potential customers, and even managed to gain the eyes of a few high ranking members of a pirate band.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Crafting>4</Crafting>
@@ -19,7 +19,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_CraftingB</defName>
 		<title>smith</title>
 		<titleShort>smith</titleShort>
-		<baseDesc>[PAWN_nameDef] was a rather skilled smith, and had produced many of the weapons used by the Maormeri Navy, and quite a few of the ones used by the various Maormer pirate groups. [PAWN_nameDef] didn't really care who made the orders, as coin is coin.</baseDesc>
+		<description>[PAWN_nameDef] was a rather skilled smith, and had produced many of the weapons used by the Maormeri Navy, and quite a few of the ones used by the various Maormer pirate groups. [PAWN_nameDef] didn't really care who made the orders, as coin is coin.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>

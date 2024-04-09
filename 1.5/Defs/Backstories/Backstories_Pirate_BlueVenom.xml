@@ -30,7 +30,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_BlueVenomA</defName>
 		<title>Blue Venom swashbuckler</title>
 		<titleShort>swashbuckler</titleShort>
-		<baseDesc>While somewhat skilled with a blade, [PAWN_nameDef] was also somewhat knowledgeable about elemental salts, and made great use of this knowledge during skirmishes.\n\n[PAWN_nameDef] is one of the few survivors of the Blue Venom pirates, and is now in hiding, hoping one day to reconnect with the remainders of [PAWN_possessive] crew.</baseDesc>
+		<description>While somewhat skilled with a blade, [PAWN_nameDef] was also somewhat knowledgeable about elemental salts, and made great use of this knowledge during skirmishes.\n\n[PAWN_nameDef] is one of the few survivors of the Blue Venom pirates, and is now in hiding, hoping one day to reconnect with the remainders of [PAWN_possessive] crew.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -46,7 +46,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_BlueVenomB</defName>
 		<title>Blue Venom bounty hunter</title>
 		<titleShort>bounty hunter</titleShort>
-		<baseDesc>[PAWN_nameDef] had a knack for finding people that didn't want to be found, especially when there was a price on their head. This skill was rather invaluable for the Blue Venom pirates, and made up one of their main sources of income.\n\n[PAWN_nameDef] is one of the few survivors of the Blue Venom pirates, and is now in hiding, hoping one day to reconnect with the remainders of [PAWN_possessive] crew.</baseDesc>
+		<description>[PAWN_nameDef] had a knack for finding people that didn't want to be found, especially when there was a price on their head. This skill was rather invaluable for the Blue Venom pirates, and made up one of their main sources of income.\n\n[PAWN_nameDef] is one of the few survivors of the Blue Venom pirates, and is now in hiding, hoping one day to reconnect with the remainders of [PAWN_possessive] crew.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Melee>6</Melee>
@@ -65,7 +65,7 @@
 		<defName>ESCP_Maormer_BlueVenomFlameAdeptBackstoryC</defName>
 		<title>Blue Venom flame adept</title>
 		<titleShort>flame adept</titleShort>
-		<baseDesc>Somewhat talented with magic, and ever obsessed with the flicker of flame, it was obvious that [PAWN_nameDef] would become a fire mage. This skillset proved rather useful for the Blue Venom pirates, especially if they needed evidence of their activities to disappear.\n\n[PAWN_nameDef] is one of the few survivors of the Blue Venom pirates, and is now in hiding, hoping one day to reconnect with the remainders of [PAWN_possessive] crew.</baseDesc>
+		<description>Somewhat talented with magic, and ever obsessed with the flicker of flame, it was obvious that [PAWN_nameDef] would become a fire mage. This skillset proved rather useful for the Blue Venom pirates, especially if they needed evidence of their activities to disappear.\n\n[PAWN_nameDef] is one of the few survivors of the Blue Venom pirates, and is now in hiding, hoping one day to reconnect with the remainders of [PAWN_possessive] crew.</description>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<skillGains>
@@ -84,7 +84,7 @@
 		<defName>ESCP_MaormerBackstory_Adulthood_BlueVenomD</defName>
 		<title>Blue Venom necromancer</title>
 		<titleShort>necromancer</titleShort>
-		<baseDesc>Having a necromancer in your crew proved rather useful for the Blue Venom pirates. [PAWN_nameDef] ensured crew members were never truly lost in battle, and turned extended skirmishes into battles of attrition.\n\n[PAWN_nameDef] is one of the few survivors of the Blue Venom pirates, and is now in hiding, hoping one day to reconnect with the remainders of [PAWN_possessive] crew.</baseDesc>
+		<description>Having a necromancer in your crew proved rather useful for the Blue Venom pirates. [PAWN_nameDef] ensured crew members were never truly lost in battle, and turned extended skirmishes into battles of attrition.\n\n[PAWN_nameDef] is one of the few survivors of the Blue Venom pirates, and is now in hiding, hoping one day to reconnect with the remainders of [PAWN_possessive] crew.</description>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<skillGains>
 			<Intellectual>8</Intellectual>
