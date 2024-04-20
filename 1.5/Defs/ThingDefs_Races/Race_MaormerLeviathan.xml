@@ -123,17 +123,26 @@
 						<li>
 							<path>Things/Pawn/Humanlike/ESCP_Maormer/Ear/RightEar</path>
 							<colorChannel>skin</colorChannel>
-							<bodyPart>Ear</bodyPart>
-							<bodyPartLabel>right ear</bodyPartLabel>
-							<drawnInBed>true</drawnInBed>
 							<inFrontOfBody>false</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<drawnDesiccated>false</drawnDesiccated>
-							<hiddenUnderApparelFor>
-								<li>FullHead</li>
-								<li>UpperHead</li>
-							</hiddenUnderApparelFor>
+							<conditions>
+								<BodyPart>
+									<bodyPartLabel>right ear</bodyPartLabel>
+								</BodyPart>
+								<RotStage>Fresh,Rotting</RotStage>
+								<Apparel>
+									<hiddenUnderApparelFor>
+										<li>FullHead</li>
+										<li>UpperHead</li>
+									</hiddenUnderApparelFor>
+								</Apparel>
+								<Posture>
+									<drawnStanding>true</drawnStanding>
+									<drawnLaying>true</drawnLaying>
+									<drawnInBed>true</drawnInBed>
+								</Posture>
+							</conditions>
 							<offsets>
 								<north>
 									<layerOffset>-0.28</layerOffset>
@@ -145,24 +154,32 @@
 									<layerOffset>0</layerOffset>
 								</south>
 							</offsets>
-							<debug>false</debug>
 						</li>
 						<!-- ========== [Ear left] ========== -->
 						<li>
 							<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
 							<path>Things/Pawn/Humanlike/ESCP_Maormer/Ear/LeftEar</path>
 							<colorChannel>skin</colorChannel>
-							<bodyPart>Ear</bodyPart>
-							<bodyPartLabel>left ear</bodyPartLabel>
-							<drawnInBed>true</drawnInBed>
 							<inFrontOfBody>false</inFrontOfBody>
 							<alignWithHead>true</alignWithHead>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<drawnDesiccated>false</drawnDesiccated>
-							<hiddenUnderApparelFor>
-								<li>FullHead</li>
-								<li>UpperHead</li>
-							</hiddenUnderApparelFor>
+							<conditions>
+								<BodyPart>
+									<bodyPartLabel>left ear</bodyPartLabel>
+								</BodyPart>
+								<RotStage>Fresh,Rotting</RotStage>
+								<Apparel>
+									<hiddenUnderApparelFor>
+										<li>FullHead</li>
+										<li>UpperHead</li>
+									</hiddenUnderApparelFor>
+								</Apparel>
+								<Posture>
+									<drawnStanding>true</drawnStanding>
+									<drawnLaying>true</drawnLaying>
+									<drawnInBed>true</drawnInBed>
+								</Posture>
+							</conditions>
 							<offsets>
 								<north>
 									<layerOffset>-0.28</layerOffset>
