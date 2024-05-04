@@ -160,7 +160,7 @@
 					<li>SoakingWet</li>
 					<li>AteInsectMeatDirect</li>
 					<li>AteInsectMeatAsIngredient</li>
-					<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_ateInsectEggAsIngredient</li>
+					<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_AteInsectEggAsIngredient</li>
 				</cannotReceiveThoughts>
 			</thoughtSettings>
 			<raceRestriction>
