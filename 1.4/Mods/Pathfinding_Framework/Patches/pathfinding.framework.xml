@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Patch>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_MaormerLeviathanRace"]/statBases/MoveSpeed</xpath>
-		<value>
-			<MoveSpeed>6</MoveSpeed>
-		</value>
-	</Operation>
-</Patch>

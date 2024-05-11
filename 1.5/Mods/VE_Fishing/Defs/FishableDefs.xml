@@ -8,7 +8,6 @@
 		<canBeSaltwater>true</canBeSaltwater>
 		<allowedBiomes>
 			<li>Warm</li>
-			<li MayRequire="SirMashedPotato.MorrowRim">Ashlands</li>
 		</allowedBiomes>
 		<commonality>0.25</commonality>
 		<baseFishingYield>3</baseFishingYield>
