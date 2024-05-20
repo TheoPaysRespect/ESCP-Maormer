@@ -9,6 +9,6 @@
 		<li IfModActive="VanillaExpanded.VPsycastsE">1.5/Mods/VE_Psycasts</li>
 		<li IfModActive="VanillaExpanded.VCEF">1.5/Mods/VE_Fishing</li>
 		<li IfModActive="pathfinding.framework">1.5/Mods/Pathfinding_Framework</li>
-		<li IfModActive="ESCP.ESCP.IndustrialFactionsDummy">1.5/Mods/IndustrialFactions</li>
+		<li IfModActive="ESCP.IndustrialFactionsDummy">1.5/Mods/IndustrialFactions</li>
 	</v1.5>
 </loadFolders>

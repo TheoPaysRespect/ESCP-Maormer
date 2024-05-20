@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<GoodwillSituationDef MayRequire="ESCP.ESCP.Altmer">
+	<GoodwillSituationDef MayRequire="ESCP.Altmer">
 		<defName>ESCP_Maormer_Altmer</defName>
 		<label>Maormer vs Altmer</label>
 		<workerClass>ESCP_RaceTools.GoodWillWorker_UniversalFactionTagCompatibility</workerClass>
