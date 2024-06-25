@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RaidStrategyDef[defName="EmergeFromWater"]/selectionWeightCurvesPerFaction</xpath>
+    <value>
+      <li>
+        <faction>ESCP_MaormerNonPlayerFaction_Kingdom</faction>
+        <selectionWeightPerPointsCurve>
+          <points>
+            <li>(500, 0.1)</li>
+            <li>(1000, 0.45)</li>
+          </points>
+        </selectionWeightPerPointsCurve>
+      </li>
+      <li>
+        <faction>ESCP_MaormerNonPlayerFaction_Pirate</faction>
+        <selectionWeightPerPointsCurve>
+          <points>
+            <li>(500, 0.1)</li>
+            <li>(1000, 0.45)</li>
+          </points>
+        </selectionWeightPerPointsCurve>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/PawnsArrivalModeDef[defName="EmergeFromWater"]</xpath>
+    <value>
+      <textFriendly>Several {0} from {1} are emerging from the water.</textFriendly>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnsArrivalModeDef[defName="EmergeFromWater"]/textEnemy</xpath>
+    <value>
+      <textEnemy>Several {0} from {1} are emerging from the water.</textEnemy>
+    </value>
+  </Operation>
+</Patch>
