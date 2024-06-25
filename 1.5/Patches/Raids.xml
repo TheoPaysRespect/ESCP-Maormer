@@ -8,7 +8,7 @@
         <selectionWeightPerPointsCurve>
           <points>
             <li>(500, 0.1)</li>
-            <li>(1000, 0.45)</li>
+            <li>(1000, 0.35)</li>
           </points>
         </selectionWeightPerPointsCurve>
       </li>
@@ -17,7 +17,7 @@
         <selectionWeightPerPointsCurve>
           <points>
             <li>(500, 0.1)</li>
-            <li>(1000, 0.45)</li>
+            <li>(1000, 0.35)</li>
           </points>
         </selectionWeightPerPointsCurve>
       </li>
