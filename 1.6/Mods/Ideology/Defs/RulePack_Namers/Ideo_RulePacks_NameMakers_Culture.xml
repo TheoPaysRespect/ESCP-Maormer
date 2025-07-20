@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_Maormer_NamerCultureLeaderTitle]========== -->
+	<RulePackDef>
+		<defName>ESCP_Maormer_NamerCultureLeaderTitle</defName>
+		<include>
+			<li>LeaderTitleMaker_GlobalStructure</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
+				<!-- ignore all meme nouns, tribals always use a culture noun -->
+				<li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
+				<li>cultureLeaderAdjective->[a]</li>
+				<li>cultureLeaderAdjective->[b]</li>
+				<li>cultureLeaderNoun->king</li>
+				<li>cultureLeaderNoun->[serpents]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>a->ESCP_MaormerNames/MaormerFactionA</li>
+				<li>b->ESCP_MaormerNames/MaormerFactionB</li>
+				<li>serpents->ESCP_MaormerNames/MaormerNamesSerpents</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<!-- ==========[ESCP_Maormer_NamerCultureDeityName]========== -->
+	<RulePackDef>
+		<defName>ESCP_Maormer_NamerCultureDeityName</defName>
+		<include>
+			<li>NamerDeityGlobal</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[serpents] of the [a]</li>
+				<li>name->the [b] [serpents]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>a->ESCP_MaormerNames/MaormerFactionA</li>
+				<li>b->ESCP_MaormerNames/MaormerFactionB</li>
+				<li>serpents->ESCP_MaormerNames/MaormerNamesSerpents</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	<!-- ==========[ESCP_Maormer_NamerCultureDeityType]========== -->
+	<RulePackDef>
+		<defName>ESCP_Maormer_NamerCultureDeityType</defName>
+		<include>
+			<li>NamerDeityGlobal</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_deityType->Serpent of [memeConcept]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+</Defs>

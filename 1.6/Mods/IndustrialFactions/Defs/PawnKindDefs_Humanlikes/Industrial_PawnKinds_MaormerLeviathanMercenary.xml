@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_Industrial_MaormerLeviathanMercenary_Slasher]========== -->
+	<PawnKindDef ParentName="MercenarySlasherBase">
+		<defName>ESCP_Industrial_MaormerLeviathanMercenary_Slasher</defName>
+		<label>snakeskin slasher</label>
+		<initialResistanceRange>10~16</initialResistanceRange>
+		<!-- Maormer stuff -->
+		<race>ESCP_MaormerLeviathanRace</race>
+		<defaultFactionType>ESCP_Industrial_MaormerNonPlayerFaction_Pirate</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>ESCP_MaormerLeviathanBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Outlander</li>
+					<li>Pirate</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+					<li>ESCP_MaormerBackstory_Adulthood</li>
+					<li>ESCP_MaormerLeviathanBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeAdulthood>
+					<li>ESCP_MaormerBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+</Defs>

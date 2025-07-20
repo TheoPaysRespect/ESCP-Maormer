@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PathfindingFramework.MovementDef ParentName="PF_Movement_AquaticBase">
+		<defName>ESCP_PF_Movement_Leviathan</defName>
+		<label>leviathan</label>
+		<description>Adapted for water, these creatures swim at frightening speeds. Though they are incredibly clumsy on land.</description>
+		<priority>3000</priority>
+		<defaultCost>Default</defaultCost>
+		<defaultCostAdd>15</defaultCostAdd>
+	</PathfindingFramework.MovementDef>
+</Defs>

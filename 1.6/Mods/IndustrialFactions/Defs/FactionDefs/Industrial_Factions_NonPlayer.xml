@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FactionDef ParentName="ESCP_NonPlayerFactionBase_IndustrialPirate" Name="ESCP_Industrial_MaormerNonPlayerFaction_Base" Abstract="True">
+		<modExtensions>
+			<li Class="ESCP_RaceTools.SettlementPreference">
+				<chance>1.0</chance>
+				<onlyCoastal>true</onlyCoastal>
+				<IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
+			</li>
+			<li Class="ESCP_RaceTools.FactionProperties">
+				<factionTags>
+					<li>ESCP_MaormerFaction</li>
+					<li>ESCP_MaormerFactionNonPlayer</li>
+				</factionTags>
+			</li>
+		</modExtensions>
+		<settlementGenerationWeight>0.5</settlementGenerationWeight>
+		<leaderTitle>Serpent-King</leaderTitle>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_MaormerSettlement</factionIconPath>
+		<factionNameMaker>ESCP_Maormer_NamerFactionRaider</factionNameMaker>
+		<settlementNameMaker>ESCP_Maormer_NamerSettlement</settlementNameMaker>
+		<allowedCultures>
+			<li>ESCP_MaormerCulture</li>
+		</allowedCultures>
+		<structureMemeWeights>
+			<ESCP_Structure_OriginOrgnumCult MayRequire="Ludeon.RimWorld.Ideology">20</ESCP_Structure_OriginOrgnumCult>
+		</structureMemeWeights>
+		<requiredMemes/>
+		<raidLootMaker>ESCP_Industrial_MaormerPirateRaidLootMaker</raidLootMaker>
+		<pawnGroupMakers>
+			<li>
+				<!-- Normal fights, ranged with melee mix-ins -->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<ESCP_Industrial_MaormerDrifter>10</ESCP_Industrial_MaormerDrifter>
+					<ESCP_Industrial_MaormerLeviathanDrifter>5</ESCP_Industrial_MaormerLeviathanDrifter>
+					<ESCP_Industrial_MaormerThrasher>3</ESCP_Industrial_MaormerThrasher>
+					<ESCP_Industrial_MaormerLeviathanThrasher>1</ESCP_Industrial_MaormerLeviathanThrasher>
+					<ESCP_Industrial_MaormerScavenger>10</ESCP_Industrial_MaormerScavenger>
+					<ESCP_Industrial_MaormerLeviathanScavenger>5</ESCP_Industrial_MaormerLeviathanScavenger>
+					<ESCP_Industrial_MaormerPirate>10</ESCP_Industrial_MaormerPirate>
+					<ESCP_Industrial_MaormerLeviathanPirate>5</ESCP_Industrial_MaormerLeviathanPirate>
+					<ESCP_Industrial_MaormerGrenadier_EMP>0.25</ESCP_Industrial_MaormerGrenadier_EMP>
+					<ESCP_Industrial_MaormerGrenadier_Smoke>0.25</ESCP_Industrial_MaormerGrenadier_Smoke>
+					<ESCP_Industrial_MaormerGrenadier_Destructive>2</ESCP_Industrial_MaormerGrenadier_Destructive>
+					<ESCP_Industrial_MaormerMercenary_Gunner>10</ESCP_Industrial_MaormerMercenary_Gunner>
+					<ESCP_Industrial_MaormerMercenary_Heavy>6</ESCP_Industrial_MaormerMercenary_Heavy>
+					<ESCP_Industrial_MaormerMercenary_Slasher>3</ESCP_Industrial_MaormerMercenary_Slasher>
+					<ESCP_Industrial_MaormerLeviathanMercenary_Slasher>1</ESCP_Industrial_MaormerLeviathanMercenary_Slasher>
+					<ESCP_Industrial_MaormerMercenary_Sniper>7</ESCP_Industrial_MaormerMercenary_Sniper>
+					<ESCP_Industrial_MaormerMercenary_Elite>10</ESCP_Industrial_MaormerMercenary_Elite>
+					<ESCP_Industrial_MaormerPirateBoss>5</ESCP_Industrial_MaormerPirateBoss>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, melee-only -->
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<options>
+					<ESCP_Industrial_MaormerThrasher>10</ESCP_Industrial_MaormerThrasher>
+					<ESCP_Industrial_MaormerLeviathanThrasher>5</ESCP_Industrial_MaormerLeviathanThrasher>
+					<ESCP_Industrial_MaormerMercenary_Slasher>10</ESCP_Industrial_MaormerMercenary_Slasher>
+					<ESCP_Industrial_MaormerLeviathanMercenary_Slasher>5</ESCP_Industrial_MaormerLeviathanMercenary_Slasher>
+					<PirateBoss>5</PirateBoss>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, ranged only -->
+				<kindDef>Combat</kindDef>
+				<commonality>20</commonality>
+				<options>
+					<ESCP_Industrial_MaormerScavenger>10</ESCP_Industrial_MaormerScavenger>
+					<ESCP_Industrial_MaormerLeviathanScavenger>5</ESCP_Industrial_MaormerLeviathanScavenger>
+					<ESCP_Industrial_MaormerPirate>10</ESCP_Industrial_MaormerPirate>
+					<ESCP_Industrial_MaormerLeviathanPirate>5</ESCP_Industrial_MaormerLeviathanPirate>
+					<ESCP_Industrial_MaormerGrenadier_EMP>0.25</ESCP_Industrial_MaormerGrenadier_EMP>
+					<ESCP_Industrial_MaormerGrenadier_Smoke>0.25</ESCP_Industrial_MaormerGrenadier_Smoke>
+					<ESCP_Industrial_MaormerGrenadier_Destructive>2</ESCP_Industrial_MaormerGrenadier_Destructive>
+					<ESCP_Industrial_MaormerMercenary_Gunner>10</ESCP_Industrial_MaormerMercenary_Gunner>
+					<ESCP_Industrial_MaormerMercenary_Heavy>6</ESCP_Industrial_MaormerMercenary_Heavy>
+					<ESCP_Industrial_MaormerMercenary_Sniper>7</ESCP_Industrial_MaormerMercenary_Sniper>
+					<ESCP_Industrial_MaormerMercenary_Elite>10</ESCP_Industrial_MaormerMercenary_Elite>
+					<ESCP_Industrial_MaormerPirateBoss>5</ESCP_Industrial_MaormerPirateBoss>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, explosives with ranged mix-ins -->
+				<kindDef>Combat</kindDef>
+				<commonality>15</commonality>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<options>
+					<ESCP_Industrial_MaormerGrenadier_EMP>0.5</ESCP_Industrial_MaormerGrenadier_EMP>
+					<ESCP_Industrial_MaormerGrenadier_Smoke>0.5</ESCP_Industrial_MaormerGrenadier_Smoke>
+					<ESCP_Industrial_MaormerGrenadier_Destructive>10</ESCP_Industrial_MaormerGrenadier_Destructive>
+					<ESCP_Industrial_MaormerMercenary_Gunner>1</ESCP_Industrial_MaormerMercenary_Gunner>
+					<ESCP_Industrial_MaormerMercenary_Heavy>10</ESCP_Industrial_MaormerMercenary_Heavy>
+					<ESCP_Industrial_MaormerMercenary_Elite>1</ESCP_Industrial_MaormerMercenary_Elite>
+					<ESCP_Industrial_MaormerPirateBoss>1</ESCP_Industrial_MaormerPirateBoss>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, snipers only -->
+				<kindDef>Combat</kindDef>
+				<commonality>10</commonality>
+				<options>
+					<ESCP_Industrial_MaormerMercenary_Sniper>10</ESCP_Industrial_MaormerMercenary_Sniper>
+				</options>
+			</li>
+			<li>
+				<!-- Normal fights, drifters only (very rare) -->
+				<kindDef>Combat</kindDef>
+				<commonality>2.5</commonality>
+				<maxTotalPoints>1000</maxTotalPoints>
+				<options>
+					<ESCP_Industrial_MaormerDrifter>10</ESCP_Industrial_MaormerDrifter>
+					<ESCP_Industrial_MaormerLeviathanDrifter>5</ESCP_Industrial_MaormerLeviathanDrifter>
+				</options>
+			</li>
+			<li>
+				<!-- Base defence, mainly ranged with melee mix-ins -->
+				<kindDef>Settlement</kindDef>
+				<options>
+					<ESCP_Industrial_MaormerThrasher>3</ESCP_Industrial_MaormerThrasher>
+					<ESCP_Industrial_MaormerLeviathanThrasher>1</ESCP_Industrial_MaormerLeviathanThrasher>
+					<ESCP_Industrial_MaormerPirate>10</ESCP_Industrial_MaormerPirate>
+					<ESCP_Industrial_MaormerLeviathanPirate>5</ESCP_Industrial_MaormerLeviathanPirate>
+					<Grenadier_Destructive>2</Grenadier_Destructive>
+					<ESCP_Industrial_MaormerMercenary_Slasher>3</ESCP_Industrial_MaormerMercenary_Slasher>
+					<ESCP_Industrial_MaormerLeviathanMercenary_Slasher>1</ESCP_Industrial_MaormerLeviathanMercenary_Slasher>
+					<ESCP_Industrial_MaormerMercenary_Sniper>10</ESCP_Industrial_MaormerMercenary_Sniper>
+					<ESCP_Industrial_MaormerMercenary_Gunner>10</ESCP_Industrial_MaormerMercenary_Gunner>
+					<ESCP_Industrial_MaormerMercenary_Elite>10</ESCP_Industrial_MaormerMercenary_Elite>
+					<ESCP_Industrial_MaormerPirateBoss>10</ESCP_Industrial_MaormerPirateBoss>
+				</options>
+			</li>
+		</pawnGroupMakers>
+	</FactionDef>
+	<!-- ==========[ESCP_MaormerNonPlayerFaction_Pirate]========== -->
+	<FactionDef ParentName="ESCP_Industrial_MaormerNonPlayerFaction_Base">
+		<defName>ESCP_Industrial_MaormerNonPlayerFaction_Pirate</defName>
+		<label>Maormer pirates (industrial)</label>
+		<description>A loose confederation of Maormer pirate gangs who've agreed to mostly fight outsiders instead of fighting each other.\n\nPirates don't sow, they don't build, and they rarely trade. Driven by a blood-and-honour culture that values personal strength and ruthlessness, they enrich themselves by raiding and robbing their more productive neighbours.\n\nTheir technology level depends mostly on who they've managed to steal from recently. Mostly they carry gunpowder weapons, though some prefer to stab victims at close range.</description>
+		<factionNameMaker>ESCP_Maormer_NamerFactionRaider</factionNameMaker>
+	</FactionDef>
+</Defs>

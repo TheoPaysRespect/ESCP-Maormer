@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<StyleCategoryDef>
+		<defName>ESCP_MaormerStyle</defName>
+		<label>Maormeri</label>
+		<iconPath>World/WorldObjects/Expanding/ESCP_MaormerPirate</iconPath>
+		<soundOngoingRitual>ESCP_RitualSustainer_Maormeri</soundOngoingRitual>
+		<ritualVisualEffectDef>ESCP_Maormeri</ritualVisualEffectDef>
+		<thingDefStyles>
+
+		</thingDefStyles>
+	</StyleCategoryDef>
+</Defs>

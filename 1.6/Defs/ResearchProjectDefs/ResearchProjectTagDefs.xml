@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectTagDef>
+		<defName>ESCP_MaormerStart_Tribal</defName>
+	</ResearchProjectTagDef>
+	<ResearchProjectTagDef>
+		<defName>ESCP_MaormerStart_Medieval</defName>
+	</ResearchProjectTagDef>
+	<ResearchProjectTagDef>
+		<defName>ESCP_MaormerStart_Industrial</defName>
+	</ResearchProjectTagDef>
+</Defs>
