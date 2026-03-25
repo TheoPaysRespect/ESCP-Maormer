@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingSetMakerDef[@Name="RareFishingCatchesBase"]/root/options</xpath>
+		<value>
+			<li>
+				<weight>0.1</weight>
+				<thingSetMaker Class="ThingSetMaker_StackCount">
+					<fixedParams>
+						<filter>
+							<thingDefs>
+								<li>ESCP_Egg_ReefViperFertilized</li>
+							</thingDefs>
+						</filter>
+						<countRange>1~3</countRange>
+					</fixedParams>
+				</thingSetMaker>
+			</li>
+		</value>
+	</Operation>
+</Patch>
